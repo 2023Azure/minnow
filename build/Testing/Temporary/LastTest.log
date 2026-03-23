@@ -1,0 +1,214 @@
+Start testing: Mar 23 10:32 CST
+----------------------------------------------------------
+1/39 Testing: compile with bug-checkers
+1/39 Test: compile with bug-checkers
+Command: "/usr/bin/cmake" "--build" "/home/azure/code/minnow/build" "-t" "functionality_testing" "webget"
+Directory: /home/azure/code/minnow/build
+"compile with bug-checkers" start time: Mar 23 10:32 CST
+Output:
+----------------------------------------------------------
+make[4]: 警告: 子 make 中强制 -j12: 重置 jobserver 模式。
+[  4%] Built target minnow_testing_sanitized
+[  6%] [32mBuilding CXX object src/CMakeFiles/minnow_sanitized.dir/byte_stream.cc.o[0m
+[ 10%] Built target minnow_testing_debug
+[ 16%] Built target minnow_debug
+[ 32%] Built target util_debug
+[ 48%] Built target util_sanitized
+[ 50%] [32m[1mLinking CXX executable byte_stream_stress_test[0m
+[ 52%] [32m[1mLinking CXX executable byte_stream_many_writes[0m
+[ 54%] [32m[1mLinking CXX executable byte_stream_basics[0m
+[ 58%] [32m[1mLinking CXX executable byte_stream_one_write[0m
+[ 60%] [32m[1mLinking CXX executable byte_stream_capacity[0m
+[ 60%] [32m[1mLinking CXX executable byte_stream_two_writes[0m
+[ 62%] Built target byte_stream_basics
+[ 64%] Built target byte_stream_two_writes
+[ 66%] Built target byte_stream_one_write
+[ 70%] Built target byte_stream_many_writes
+[ 70%] Built target byte_stream_stress_test
+[ 72%] Built target byte_stream_capacity
+[ 74%] [32m[1mLinking CXX static library libminnow_sanitized.a[0m
+[ 76%] Built target minnow_sanitized
+[ 78%] [32m[1mLinking CXX executable byte_stream_capacity_sanitized[0m
+[ 80%] [32m[1mLinking CXX executable byte_stream_two_writes_sanitized[0m
+[ 82%] [32m[1mLinking CXX executable byte_stream_many_writes_sanitized[0m
+[ 84%] [32m[1mLinking CXX executable byte_stream_one_write_sanitized[0m
+[ 86%] [32m[1mLinking CXX executable byte_stream_basics_sanitized[0m
+[ 88%] [32m[1mLinking CXX executable byte_stream_stress_test_sanitized[0m
+[ 92%] Built target byte_stream_two_writes_sanitized
+[ 92%] Built target byte_stream_basics_sanitized
+[ 94%] Built target byte_stream_one_write_sanitized
+[ 96%] Built target byte_stream_stress_test_sanitized
+[ 98%] Built target byte_stream_capacity_sanitized
+[100%] Built target byte_stream_many_writes_sanitized
+[100%] Built target functionality_testing
+[ 13%] Built target stream_copy
+[ 33%] Built target minnow_debug
+[ 86%] Built target util_debug
+[100%] Built target webget
+<end of output>
+Test time =   1.16 sec
+----------------------------------------------------------
+Test Passed.
+"compile with bug-checkers" end time: Mar 23 10:32 CST
+"compile with bug-checkers" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/39 Testing: t_webget
+2/39 Test: t_webget
+Command: "/home/azure/code/minnow/tests/webget_t.sh" "/home/azure/code/minnow/build"
+Directory: /home/azure/code/minnow/build
+"t_webget" start time: Mar 23 10:32 CST
+Output:
+----------------------------------------------------------
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+7SmXqWkrLKzVBCEalbSPqBcvs11Pw263K7x4Wv3JckI
+<end of output>
+Test time =   1.09 sec
+----------------------------------------------------------
+Test Passed.
+"t_webget" end time: Mar 23 10:32 CST
+"t_webget" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/39 Testing: byte_stream_basics
+3/39 Test: byte_stream_basics
+Command: "/home/azure/code/minnow/build/tests/byte_stream_basics_sanitized"
+Directory: /home/azure/code/minnow/build
+"byte_stream_basics" start time: Mar 23 10:32 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_basics" end time: Mar 23 10:32 CST
+"byte_stream_basics" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/39 Testing: byte_stream_capacity
+4/39 Test: byte_stream_capacity
+Command: "/home/azure/code/minnow/build/tests/byte_stream_capacity_sanitized"
+Directory: /home/azure/code/minnow/build
+"byte_stream_capacity" start time: Mar 23 10:32 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_capacity" end time: Mar 23 10:32 CST
+"byte_stream_capacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/39 Testing: byte_stream_one_write
+5/39 Test: byte_stream_one_write
+Command: "/home/azure/code/minnow/build/tests/byte_stream_one_write_sanitized"
+Directory: /home/azure/code/minnow/build
+"byte_stream_one_write" start time: Mar 23 10:32 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_one_write" end time: Mar 23 10:32 CST
+"byte_stream_one_write" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/39 Testing: byte_stream_two_writes
+6/39 Test: byte_stream_two_writes
+Command: "/home/azure/code/minnow/build/tests/byte_stream_two_writes_sanitized"
+Directory: /home/azure/code/minnow/build
+"byte_stream_two_writes" start time: Mar 23 10:32 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_two_writes" end time: Mar 23 10:32 CST
+"byte_stream_two_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/39 Testing: byte_stream_many_writes
+7/39 Test: byte_stream_many_writes
+Command: "/home/azure/code/minnow/build/tests/byte_stream_many_writes_sanitized"
+Directory: /home/azure/code/minnow/build
+"byte_stream_many_writes" start time: Mar 23 10:32 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_many_writes" end time: Mar 23 10:32 CST
+"byte_stream_many_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/39 Testing: byte_stream_stress_test
+8/39 Test: byte_stream_stress_test
+Command: "/home/azure/code/minnow/build/tests/byte_stream_stress_test_sanitized"
+Directory: /home/azure/code/minnow/build
+"byte_stream_stress_test" start time: Mar 23 10:32 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_stress_test" end time: Mar 23 10:32 CST
+"byte_stream_stress_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/39 Testing: compile with optimization
+37/39 Test: compile with optimization
+Command: "/usr/bin/cmake" "--build" "/home/azure/code/minnow/build" "-t" "speed_testing"
+Directory: /home/azure/code/minnow/build
+"compile with optimization" start time: Mar 23 10:32 CST
+Output:
+----------------------------------------------------------
+make[4]: 警告: 子 make 中强制 -j12: 重置 jobserver 模式。
+[  7%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/eventloop.cc.o[0m
+[ 15%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/random.cc.o[0m
+[ 23%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/byte_stream.cc.o[0m
+[ 38%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/address.cc.o[0m
+[ 38%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.o[0m
+[ 53%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/file_descriptor.cc.o[0m
+[ 53%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/ipv4_header.cc.o[0m
+[ 61%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/socket.cc.o[0m
+[ 69%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/tun.cc.o[0m
+[ 76%] [32m[1mLinking CXX static library libminnow_optimized.a[0m
+[ 76%] Built target minnow_optimized
+[ 84%] [32m[1mLinking CXX static library libutil_optimized.a[0m
+[ 84%] Built target util_optimized
+[ 92%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_speed_test.dir/byte_stream_speed_test.cc.o[0m
+[100%] [32m[1mLinking CXX executable byte_stream_speed_test[0m
+[100%] Built target byte_stream_speed_test
+[100%] Built target speed_testing
+<end of output>
+Test time =   4.28 sec
+----------------------------------------------------------
+Test Passed.
+"compile with optimization" end time: Mar 23 10:32 CST
+"compile with optimization" time elapsed: 00:00:04
+----------------------------------------------------------
+
+38/39 Testing: byte_stream_speed_test
+38/39 Test: byte_stream_speed_test
+Command: "/home/azure/code/minnow/build/tests/byte_stream_speed_test"
+Directory: /home/azure/code/minnow/build
+"byte_stream_speed_test" start time: Mar 23 10:32 CST
+Output:
+----------------------------------------------------------
+ByteStream with capacity=32768, write_size=1500, read_size=128 reached 2.87 Gbit/s.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_speed_test" end time: Mar 23 10:32 CST
+"byte_stream_speed_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 23 10:32 CST
