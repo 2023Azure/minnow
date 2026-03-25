@@ -17,6 +17,7 @@ private:
                        const std::function<int( int, sockaddr*, socklen_t* )>& function ) const;
 
 protected:
+
   //! Construct via [socket(2)](\ref man2::socket)(系统调用）
   //! domain: IPv4 or IPv6, type: StreamSocket（流式套接字） or DatagramSocket（数据包套接字） , protocol = 0: auto
   //! chose
@@ -38,6 +39,7 @@ protected:
 
 public:
   //! Bind a socket to a specified address with [bind(2)](\ref man2::bind), usually for listen/accept
+
   void bind( const Address& address ); // 用于绑定客户端，服务器可以通过绑定来监听端口是否有请求
 
   //! Bind a socket to a specified device//绑定到指定设备

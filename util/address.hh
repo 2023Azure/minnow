@@ -33,7 +33,8 @@ private:
   Address( const std::string& node, const std::string& service, const addrinfo& hints );
 
 public:
-  //! Construct by resolving a hostname and servicenamei(端口号).
+  //! Construct by resolving a hostname and servicename.
+
   Address( const std::string& hostname, const std::string& service );
 
   //! Construct from dotted-quad string ("18.243.0.1") and numeric port.
