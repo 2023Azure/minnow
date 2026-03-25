@@ -97,19 +97,35 @@ src/CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.s"
 	cd /home/azure/code/minnow/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azure/code/minnow/src/byte_stream_helpers.cc -o CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.s
 
+src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.o: src/CMakeFiles/minnow_sanitized.dir/flags.make
+src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.o: /home/azure/code/minnow/src/reassembler.cc
+src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.o: src/CMakeFiles/minnow_sanitized.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/azure/code/minnow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.o"
+	cd /home/azure/code/minnow/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.o -MF CMakeFiles/minnow_sanitized.dir/reassembler.cc.o.d -o CMakeFiles/minnow_sanitized.dir/reassembler.cc.o -c /home/azure/code/minnow/src/reassembler.cc
+
+src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minnow_sanitized.dir/reassembler.cc.i"
+	cd /home/azure/code/minnow/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/azure/code/minnow/src/reassembler.cc > CMakeFiles/minnow_sanitized.dir/reassembler.cc.i
+
+src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minnow_sanitized.dir/reassembler.cc.s"
+	cd /home/azure/code/minnow/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/azure/code/minnow/src/reassembler.cc -o CMakeFiles/minnow_sanitized.dir/reassembler.cc.s
+
 # Object files for target minnow_sanitized
 minnow_sanitized_OBJECTS = \
 "CMakeFiles/minnow_sanitized.dir/byte_stream.cc.o" \
-"CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.o"
+"CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.o" \
+"CMakeFiles/minnow_sanitized.dir/reassembler.cc.o"
 
 # External object files for target minnow_sanitized
 minnow_sanitized_EXTERNAL_OBJECTS =
 
 src/libminnow_sanitized.a: src/CMakeFiles/minnow_sanitized.dir/byte_stream.cc.o
 src/libminnow_sanitized.a: src/CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.o
+src/libminnow_sanitized.a: src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.o
 src/libminnow_sanitized.a: src/CMakeFiles/minnow_sanitized.dir/build.make
 src/libminnow_sanitized.a: src/CMakeFiles/minnow_sanitized.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/azure/code/minnow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libminnow_sanitized.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/azure/code/minnow/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libminnow_sanitized.a"
 	cd /home/azure/code/minnow/build/src && $(CMAKE_COMMAND) -P CMakeFiles/minnow_sanitized.dir/cmake_clean_target.cmake
 	cd /home/azure/code/minnow/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minnow_sanitized.dir/link.txt --verbose=$(VERBOSE)
 

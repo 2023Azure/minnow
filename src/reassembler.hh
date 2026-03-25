@@ -1,6 +1,7 @@
 #pragma once
 
 #include "byte_stream.hh"
+#include <vector>
 
 class Reassembler
 {
@@ -42,4 +43,10 @@ public:
 
 private:
   ByteStream output_; // the Reassembler writes to this ByteStream
+  uint64_t first_unassembled_ {};
+  std:: vector<char> buffer_{};
+  std:: vector<bool> buffered_{}; 
+  uint64_t bytes_buffered_{};
+  uint64_t eof_index{};
+  bool is_eof{};
 };

@@ -231,6 +231,32 @@ tidy_src__byte_stream_helpers.cc/fast:
 .PHONY : tidy_src__byte_stream_helpers.cc/fast
 
 #=============================================================================
+# Target rules for targets named tidy_src__reassembler.cc
+
+# Build rule for target.
+tidy_src__reassembler.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_src__reassembler.cc
+.PHONY : tidy_src__reassembler.cc
+
+# fast build rule for target.
+tidy_src__reassembler.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_src__reassembler.cc.dir/build.make CMakeFiles/tidy_src__reassembler.cc.dir/build
+.PHONY : tidy_src__reassembler.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_src__reassembler.hh
+
+# Build rule for target.
+tidy_src__reassembler.hh: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_src__reassembler.hh
+.PHONY : tidy_src__reassembler.hh
+
+# fast build rule for target.
+tidy_src__reassembler.hh/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_src__reassembler.hh.dir/build.make CMakeFiles/tidy_src__reassembler.hh.dir/build
+.PHONY : tidy_src__reassembler.hh/fast
+
+#=============================================================================
 # Target rules for targets named tidy_tests__byte_stream_basics.cc
 
 # Build rule for target.
@@ -372,6 +398,123 @@ tidy_tests__conversions.hh: cmake_check_build_system
 tidy_tests__conversions.hh/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__conversions.hh.dir/build.make CMakeFiles/tidy_tests__conversions.hh.dir/build
 .PHONY : tidy_tests__conversions.hh/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tests__reassembler_cap.cc
+
+# Build rule for target.
+tidy_tests__reassembler_cap.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tests__reassembler_cap.cc
+.PHONY : tidy_tests__reassembler_cap.cc
+
+# fast build rule for target.
+tidy_tests__reassembler_cap.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__reassembler_cap.cc.dir/build.make CMakeFiles/tidy_tests__reassembler_cap.cc.dir/build
+.PHONY : tidy_tests__reassembler_cap.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tests__reassembler_dup.cc
+
+# Build rule for target.
+tidy_tests__reassembler_dup.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tests__reassembler_dup.cc
+.PHONY : tidy_tests__reassembler_dup.cc
+
+# fast build rule for target.
+tidy_tests__reassembler_dup.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__reassembler_dup.cc.dir/build.make CMakeFiles/tidy_tests__reassembler_dup.cc.dir/build
+.PHONY : tidy_tests__reassembler_dup.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tests__reassembler_holes.cc
+
+# Build rule for target.
+tidy_tests__reassembler_holes.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tests__reassembler_holes.cc
+.PHONY : tidy_tests__reassembler_holes.cc
+
+# fast build rule for target.
+tidy_tests__reassembler_holes.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__reassembler_holes.cc.dir/build.make CMakeFiles/tidy_tests__reassembler_holes.cc.dir/build
+.PHONY : tidy_tests__reassembler_holes.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tests__reassembler_overlapping.cc
+
+# Build rule for target.
+tidy_tests__reassembler_overlapping.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tests__reassembler_overlapping.cc
+.PHONY : tidy_tests__reassembler_overlapping.cc
+
+# fast build rule for target.
+tidy_tests__reassembler_overlapping.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__reassembler_overlapping.cc.dir/build.make CMakeFiles/tidy_tests__reassembler_overlapping.cc.dir/build
+.PHONY : tidy_tests__reassembler_overlapping.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tests__reassembler_seq.cc
+
+# Build rule for target.
+tidy_tests__reassembler_seq.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tests__reassembler_seq.cc
+.PHONY : tidy_tests__reassembler_seq.cc
+
+# fast build rule for target.
+tidy_tests__reassembler_seq.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__reassembler_seq.cc.dir/build.make CMakeFiles/tidy_tests__reassembler_seq.cc.dir/build
+.PHONY : tidy_tests__reassembler_seq.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tests__reassembler_single.cc
+
+# Build rule for target.
+tidy_tests__reassembler_single.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tests__reassembler_single.cc
+.PHONY : tidy_tests__reassembler_single.cc
+
+# fast build rule for target.
+tidy_tests__reassembler_single.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__reassembler_single.cc.dir/build.make CMakeFiles/tidy_tests__reassembler_single.cc.dir/build
+.PHONY : tidy_tests__reassembler_single.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tests__reassembler_speed_test.cc
+
+# Build rule for target.
+tidy_tests__reassembler_speed_test.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tests__reassembler_speed_test.cc
+.PHONY : tidy_tests__reassembler_speed_test.cc
+
+# fast build rule for target.
+tidy_tests__reassembler_speed_test.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__reassembler_speed_test.cc.dir/build.make CMakeFiles/tidy_tests__reassembler_speed_test.cc.dir/build
+.PHONY : tidy_tests__reassembler_speed_test.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tests__reassembler_test_harness.hh
+
+# Build rule for target.
+tidy_tests__reassembler_test_harness.hh: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tests__reassembler_test_harness.hh
+.PHONY : tidy_tests__reassembler_test_harness.hh
+
+# fast build rule for target.
+tidy_tests__reassembler_test_harness.hh/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__reassembler_test_harness.hh.dir/build.make CMakeFiles/tidy_tests__reassembler_test_harness.hh.dir/build
+.PHONY : tidy_tests__reassembler_test_harness.hh/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tests__reassembler_win.cc
+
+# Build rule for target.
+tidy_tests__reassembler_win.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tests__reassembler_win.cc
+.PHONY : tidy_tests__reassembler_win.cc
+
+# fast build rule for target.
+tidy_tests__reassembler_win.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__reassembler_win.cc.dir/build.make CMakeFiles/tidy_tests__reassembler_win.cc.dir/build
+.PHONY : tidy_tests__reassembler_win.cc/fast
 
 #=============================================================================
 # Target rules for targets named tidy_tests__test_should_be.hh
@@ -1401,6 +1544,188 @@ byte_stream_stress_test/fast:
 .PHONY : byte_stream_stress_test/fast
 
 #=============================================================================
+# Target rules for targets named reassembler_single_sanitized
+
+# Build rule for target.
+reassembler_single_sanitized: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_single_sanitized
+.PHONY : reassembler_single_sanitized
+
+# fast build rule for target.
+reassembler_single_sanitized/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_single_sanitized.dir/build.make tests/CMakeFiles/reassembler_single_sanitized.dir/build
+.PHONY : reassembler_single_sanitized/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_single
+
+# Build rule for target.
+reassembler_single: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_single
+.PHONY : reassembler_single
+
+# fast build rule for target.
+reassembler_single/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_single.dir/build.make tests/CMakeFiles/reassembler_single.dir/build
+.PHONY : reassembler_single/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_cap_sanitized
+
+# Build rule for target.
+reassembler_cap_sanitized: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_cap_sanitized
+.PHONY : reassembler_cap_sanitized
+
+# fast build rule for target.
+reassembler_cap_sanitized/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_cap_sanitized.dir/build.make tests/CMakeFiles/reassembler_cap_sanitized.dir/build
+.PHONY : reassembler_cap_sanitized/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_cap
+
+# Build rule for target.
+reassembler_cap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_cap
+.PHONY : reassembler_cap
+
+# fast build rule for target.
+reassembler_cap/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_cap.dir/build.make tests/CMakeFiles/reassembler_cap.dir/build
+.PHONY : reassembler_cap/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_seq_sanitized
+
+# Build rule for target.
+reassembler_seq_sanitized: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_seq_sanitized
+.PHONY : reassembler_seq_sanitized
+
+# fast build rule for target.
+reassembler_seq_sanitized/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_seq_sanitized.dir/build.make tests/CMakeFiles/reassembler_seq_sanitized.dir/build
+.PHONY : reassembler_seq_sanitized/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_seq
+
+# Build rule for target.
+reassembler_seq: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_seq
+.PHONY : reassembler_seq
+
+# fast build rule for target.
+reassembler_seq/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_seq.dir/build.make tests/CMakeFiles/reassembler_seq.dir/build
+.PHONY : reassembler_seq/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_dup_sanitized
+
+# Build rule for target.
+reassembler_dup_sanitized: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_dup_sanitized
+.PHONY : reassembler_dup_sanitized
+
+# fast build rule for target.
+reassembler_dup_sanitized/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_dup_sanitized.dir/build.make tests/CMakeFiles/reassembler_dup_sanitized.dir/build
+.PHONY : reassembler_dup_sanitized/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_dup
+
+# Build rule for target.
+reassembler_dup: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_dup
+.PHONY : reassembler_dup
+
+# fast build rule for target.
+reassembler_dup/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_dup.dir/build.make tests/CMakeFiles/reassembler_dup.dir/build
+.PHONY : reassembler_dup/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_holes_sanitized
+
+# Build rule for target.
+reassembler_holes_sanitized: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_holes_sanitized
+.PHONY : reassembler_holes_sanitized
+
+# fast build rule for target.
+reassembler_holes_sanitized/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_holes_sanitized.dir/build.make tests/CMakeFiles/reassembler_holes_sanitized.dir/build
+.PHONY : reassembler_holes_sanitized/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_holes
+
+# Build rule for target.
+reassembler_holes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_holes
+.PHONY : reassembler_holes
+
+# fast build rule for target.
+reassembler_holes/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_holes.dir/build.make tests/CMakeFiles/reassembler_holes.dir/build
+.PHONY : reassembler_holes/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_overlapping_sanitized
+
+# Build rule for target.
+reassembler_overlapping_sanitized: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_overlapping_sanitized
+.PHONY : reassembler_overlapping_sanitized
+
+# fast build rule for target.
+reassembler_overlapping_sanitized/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_overlapping_sanitized.dir/build.make tests/CMakeFiles/reassembler_overlapping_sanitized.dir/build
+.PHONY : reassembler_overlapping_sanitized/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_overlapping
+
+# Build rule for target.
+reassembler_overlapping: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_overlapping
+.PHONY : reassembler_overlapping
+
+# fast build rule for target.
+reassembler_overlapping/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_overlapping.dir/build.make tests/CMakeFiles/reassembler_overlapping.dir/build
+.PHONY : reassembler_overlapping/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_win_sanitized
+
+# Build rule for target.
+reassembler_win_sanitized: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_win_sanitized
+.PHONY : reassembler_win_sanitized
+
+# fast build rule for target.
+reassembler_win_sanitized/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_win_sanitized.dir/build.make tests/CMakeFiles/reassembler_win_sanitized.dir/build
+.PHONY : reassembler_win_sanitized/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_win
+
+# Build rule for target.
+reassembler_win: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_win
+.PHONY : reassembler_win
+
+# fast build rule for target.
+reassembler_win/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_win.dir/build.make tests/CMakeFiles/reassembler_win.dir/build
+.PHONY : reassembler_win/fast
+
+#=============================================================================
 # Target rules for targets named byte_stream_speed_test
 
 # Build rule for target.
@@ -1412,6 +1737,19 @@ byte_stream_speed_test: cmake_check_build_system
 byte_stream_speed_test/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/byte_stream_speed_test.dir/build.make tests/CMakeFiles/byte_stream_speed_test.dir/build
 .PHONY : byte_stream_speed_test/fast
+
+#=============================================================================
+# Target rules for targets named reassembler_speed_test
+
+# Build rule for target.
+reassembler_speed_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reassembler_speed_test
+.PHONY : reassembler_speed_test
+
+# fast build rule for target.
+reassembler_speed_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_speed_test.dir/build.make tests/CMakeFiles/reassembler_speed_test.dir/build
+.PHONY : reassembler_speed_test/fast
 
 #=============================================================================
 # Target rules for targets named stream_copy
@@ -1509,6 +1847,8 @@ help:
 	@echo "... tidy_src__byte_stream.cc"
 	@echo "... tidy_src__byte_stream.hh"
 	@echo "... tidy_src__byte_stream_helpers.cc"
+	@echo "... tidy_src__reassembler.cc"
+	@echo "... tidy_src__reassembler.hh"
 	@echo "... tidy_tests__byte_stream_basics.cc"
 	@echo "... tidy_tests__byte_stream_capacity.cc"
 	@echo "... tidy_tests__byte_stream_many_writes.cc"
@@ -1520,6 +1860,15 @@ help:
 	@echo "... tidy_tests__common.cc"
 	@echo "... tidy_tests__common.hh"
 	@echo "... tidy_tests__conversions.hh"
+	@echo "... tidy_tests__reassembler_cap.cc"
+	@echo "... tidy_tests__reassembler_dup.cc"
+	@echo "... tidy_tests__reassembler_holes.cc"
+	@echo "... tidy_tests__reassembler_overlapping.cc"
+	@echo "... tidy_tests__reassembler_seq.cc"
+	@echo "... tidy_tests__reassembler_single.cc"
+	@echo "... tidy_tests__reassembler_speed_test.cc"
+	@echo "... tidy_tests__reassembler_test_harness.hh"
+	@echo "... tidy_tests__reassembler_win.cc"
 	@echo "... tidy_tests__test_should_be.hh"
 	@echo "... tidy_util__address.cc"
 	@echo "... tidy_util__address.hh"
@@ -1557,6 +1906,21 @@ help:
 	@echo "... minnow_sanitized"
 	@echo "... minnow_testing_debug"
 	@echo "... minnow_testing_sanitized"
+	@echo "... reassembler_cap"
+	@echo "... reassembler_cap_sanitized"
+	@echo "... reassembler_dup"
+	@echo "... reassembler_dup_sanitized"
+	@echo "... reassembler_holes"
+	@echo "... reassembler_holes_sanitized"
+	@echo "... reassembler_overlapping"
+	@echo "... reassembler_overlapping_sanitized"
+	@echo "... reassembler_seq"
+	@echo "... reassembler_seq_sanitized"
+	@echo "... reassembler_single"
+	@echo "... reassembler_single_sanitized"
+	@echo "... reassembler_speed_test"
+	@echo "... reassembler_win"
+	@echo "... reassembler_win_sanitized"
 	@echo "... stream_copy"
 	@echo "... tcp_native"
 	@echo "... util_debug"

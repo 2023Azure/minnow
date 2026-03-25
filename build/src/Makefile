@@ -228,6 +228,36 @@ byte_stream_helpers.cc.s:
 	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_optimized.dir/build.make src/CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.s
 .PHONY : byte_stream_helpers.cc.s
 
+reassembler.o: reassembler.cc.o
+.PHONY : reassembler.o
+
+# target to build an object file
+reassembler.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_debug.dir/build.make src/CMakeFiles/minnow_debug.dir/reassembler.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_sanitized.dir/build.make src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_optimized.dir/build.make src/CMakeFiles/minnow_optimized.dir/reassembler.cc.o
+.PHONY : reassembler.cc.o
+
+reassembler.i: reassembler.cc.i
+.PHONY : reassembler.i
+
+# target to preprocess a source file
+reassembler.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_debug.dir/build.make src/CMakeFiles/minnow_debug.dir/reassembler.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_sanitized.dir/build.make src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_optimized.dir/build.make src/CMakeFiles/minnow_optimized.dir/reassembler.cc.i
+.PHONY : reassembler.cc.i
+
+reassembler.s: reassembler.cc.s
+.PHONY : reassembler.s
+
+# target to generate assembly for a file
+reassembler.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_debug.dir/build.make src/CMakeFiles/minnow_debug.dir/reassembler.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_sanitized.dir/build.make src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_optimized.dir/build.make src/CMakeFiles/minnow_optimized.dir/reassembler.cc.s
+.PHONY : reassembler.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +276,9 @@ help:
 	@echo "... byte_stream_helpers.o"
 	@echo "... byte_stream_helpers.i"
 	@echo "... byte_stream_helpers.s"
+	@echo "... reassembler.o"
+	@echo "... reassembler.i"
+	@echo "... reassembler.s"
 .PHONY : help
 
 
