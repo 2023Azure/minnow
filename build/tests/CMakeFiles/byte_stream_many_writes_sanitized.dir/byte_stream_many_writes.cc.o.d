@@ -127,6 +127,7 @@ tests/CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.c
  /home/azure/code/minnow/tests/byte_stream_test_harness.hh \
  /home/azure/code/minnow/tests/common.hh \
  /home/azure/code/minnow/tests/conversions.hh \
+ /home/azure/code/minnow/src/wrapping_integers.hh \
  /usr/include/c++/13/optional /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \

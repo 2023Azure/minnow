@@ -547,6 +547,342 @@ reassembler_win/fast:
 .PHONY : reassembler_win/fast
 
 # Convenience name for target.
+tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/rule
+
+# Convenience name for target.
+wrapping_integers_cmp_sanitized: tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/rule
+.PHONY : wrapping_integers_cmp_sanitized
+
+# fast build rule for target.
+wrapping_integers_cmp_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/build
+.PHONY : wrapping_integers_cmp_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/wrapping_integers_cmp.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_cmp.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_cmp.dir/rule
+
+# Convenience name for target.
+wrapping_integers_cmp: tests/CMakeFiles/wrapping_integers_cmp.dir/rule
+.PHONY : wrapping_integers_cmp
+
+# fast build rule for target.
+wrapping_integers_cmp/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/build
+.PHONY : wrapping_integers_cmp/fast
+
+# Convenience name for target.
+tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/rule
+
+# Convenience name for target.
+wrapping_integers_wrap_sanitized: tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/rule
+.PHONY : wrapping_integers_wrap_sanitized
+
+# fast build rule for target.
+wrapping_integers_wrap_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/build
+.PHONY : wrapping_integers_wrap_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/wrapping_integers_wrap.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_wrap.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_wrap.dir/rule
+
+# Convenience name for target.
+wrapping_integers_wrap: tests/CMakeFiles/wrapping_integers_wrap.dir/rule
+.PHONY : wrapping_integers_wrap
+
+# fast build rule for target.
+wrapping_integers_wrap/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap.dir/build.make tests/CMakeFiles/wrapping_integers_wrap.dir/build
+.PHONY : wrapping_integers_wrap/fast
+
+# Convenience name for target.
+tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/rule
+
+# Convenience name for target.
+wrapping_integers_unwrap_sanitized: tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/rule
+.PHONY : wrapping_integers_unwrap_sanitized
+
+# fast build rule for target.
+wrapping_integers_unwrap_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/build
+.PHONY : wrapping_integers_unwrap_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/wrapping_integers_unwrap.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_unwrap.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_unwrap.dir/rule
+
+# Convenience name for target.
+wrapping_integers_unwrap: tests/CMakeFiles/wrapping_integers_unwrap.dir/rule
+.PHONY : wrapping_integers_unwrap
+
+# fast build rule for target.
+wrapping_integers_unwrap/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/build
+.PHONY : wrapping_integers_unwrap/fast
+
+# Convenience name for target.
+tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/rule
+
+# Convenience name for target.
+wrapping_integers_roundtrip_sanitized: tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/rule
+.PHONY : wrapping_integers_roundtrip_sanitized
+
+# fast build rule for target.
+wrapping_integers_roundtrip_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/build
+.PHONY : wrapping_integers_roundtrip_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/wrapping_integers_roundtrip.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_roundtrip.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_roundtrip.dir/rule
+
+# Convenience name for target.
+wrapping_integers_roundtrip: tests/CMakeFiles/wrapping_integers_roundtrip.dir/rule
+.PHONY : wrapping_integers_roundtrip
+
+# fast build rule for target.
+wrapping_integers_roundtrip/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_roundtrip.dir/build.make tests/CMakeFiles/wrapping_integers_roundtrip.dir/build
+.PHONY : wrapping_integers_roundtrip/fast
+
+# Convenience name for target.
+tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/rule
+
+# Convenience name for target.
+wrapping_integers_extra_sanitized: tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/rule
+.PHONY : wrapping_integers_extra_sanitized
+
+# fast build rule for target.
+wrapping_integers_extra_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/build
+.PHONY : wrapping_integers_extra_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/wrapping_integers_extra.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_extra.dir/rule
+.PHONY : tests/CMakeFiles/wrapping_integers_extra.dir/rule
+
+# Convenience name for target.
+wrapping_integers_extra: tests/CMakeFiles/wrapping_integers_extra.dir/rule
+.PHONY : wrapping_integers_extra
+
+# fast build rule for target.
+wrapping_integers_extra/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_extra.dir/build.make tests/CMakeFiles/wrapping_integers_extra.dir/build
+.PHONY : wrapping_integers_extra/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_connect_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_connect_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/recv_connect_sanitized.dir/rule
+
+# Convenience name for target.
+recv_connect_sanitized: tests/CMakeFiles/recv_connect_sanitized.dir/rule
+.PHONY : recv_connect_sanitized
+
+# fast build rule for target.
+recv_connect_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect_sanitized.dir/build.make tests/CMakeFiles/recv_connect_sanitized.dir/build
+.PHONY : recv_connect_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_connect.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_connect.dir/rule
+.PHONY : tests/CMakeFiles/recv_connect.dir/rule
+
+# Convenience name for target.
+recv_connect: tests/CMakeFiles/recv_connect.dir/rule
+.PHONY : recv_connect
+
+# fast build rule for target.
+recv_connect/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect.dir/build.make tests/CMakeFiles/recv_connect.dir/build
+.PHONY : recv_connect/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_transmit_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_transmit_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/recv_transmit_sanitized.dir/rule
+
+# Convenience name for target.
+recv_transmit_sanitized: tests/CMakeFiles/recv_transmit_sanitized.dir/rule
+.PHONY : recv_transmit_sanitized
+
+# fast build rule for target.
+recv_transmit_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit_sanitized.dir/build.make tests/CMakeFiles/recv_transmit_sanitized.dir/build
+.PHONY : recv_transmit_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_transmit.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_transmit.dir/rule
+.PHONY : tests/CMakeFiles/recv_transmit.dir/rule
+
+# Convenience name for target.
+recv_transmit: tests/CMakeFiles/recv_transmit.dir/rule
+.PHONY : recv_transmit
+
+# fast build rule for target.
+recv_transmit/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit.dir/build.make tests/CMakeFiles/recv_transmit.dir/build
+.PHONY : recv_transmit/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_window_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_window_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/recv_window_sanitized.dir/rule
+
+# Convenience name for target.
+recv_window_sanitized: tests/CMakeFiles/recv_window_sanitized.dir/rule
+.PHONY : recv_window_sanitized
+
+# fast build rule for target.
+recv_window_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window_sanitized.dir/build.make tests/CMakeFiles/recv_window_sanitized.dir/build
+.PHONY : recv_window_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_window.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_window.dir/rule
+.PHONY : tests/CMakeFiles/recv_window.dir/rule
+
+# Convenience name for target.
+recv_window: tests/CMakeFiles/recv_window.dir/rule
+.PHONY : recv_window
+
+# fast build rule for target.
+recv_window/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/build
+.PHONY : recv_window/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_reorder_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_reorder_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/recv_reorder_sanitized.dir/rule
+
+# Convenience name for target.
+recv_reorder_sanitized: tests/CMakeFiles/recv_reorder_sanitized.dir/rule
+.PHONY : recv_reorder_sanitized
+
+# fast build rule for target.
+recv_reorder_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_sanitized.dir/build.make tests/CMakeFiles/recv_reorder_sanitized.dir/build
+.PHONY : recv_reorder_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_reorder.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_reorder.dir/rule
+.PHONY : tests/CMakeFiles/recv_reorder.dir/rule
+
+# Convenience name for target.
+recv_reorder: tests/CMakeFiles/recv_reorder.dir/rule
+.PHONY : recv_reorder
+
+# fast build rule for target.
+recv_reorder/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder.dir/build.make tests/CMakeFiles/recv_reorder.dir/build
+.PHONY : recv_reorder/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_reorder_more_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_reorder_more_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/recv_reorder_more_sanitized.dir/rule
+
+# Convenience name for target.
+recv_reorder_more_sanitized: tests/CMakeFiles/recv_reorder_more_sanitized.dir/rule
+.PHONY : recv_reorder_more_sanitized
+
+# fast build rule for target.
+recv_reorder_more_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_more_sanitized.dir/build.make tests/CMakeFiles/recv_reorder_more_sanitized.dir/build
+.PHONY : recv_reorder_more_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_reorder_more.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_reorder_more.dir/rule
+.PHONY : tests/CMakeFiles/recv_reorder_more.dir/rule
+
+# Convenience name for target.
+recv_reorder_more: tests/CMakeFiles/recv_reorder_more.dir/rule
+.PHONY : recv_reorder_more
+
+# fast build rule for target.
+recv_reorder_more/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_more.dir/build.make tests/CMakeFiles/recv_reorder_more.dir/build
+.PHONY : recv_reorder_more/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_close_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_close_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/recv_close_sanitized.dir/rule
+
+# Convenience name for target.
+recv_close_sanitized: tests/CMakeFiles/recv_close_sanitized.dir/rule
+.PHONY : recv_close_sanitized
+
+# fast build rule for target.
+recv_close_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close_sanitized.dir/build.make tests/CMakeFiles/recv_close_sanitized.dir/build
+.PHONY : recv_close_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_close.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_close.dir/rule
+.PHONY : tests/CMakeFiles/recv_close.dir/rule
+
+# Convenience name for target.
+recv_close: tests/CMakeFiles/recv_close.dir/rule
+.PHONY : recv_close
+
+# fast build rule for target.
+recv_close/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close.dir/build.make tests/CMakeFiles/recv_close.dir/build
+.PHONY : recv_close/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_special_sanitized.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_special_sanitized.dir/rule
+.PHONY : tests/CMakeFiles/recv_special_sanitized.dir/rule
+
+# Convenience name for target.
+recv_special_sanitized: tests/CMakeFiles/recv_special_sanitized.dir/rule
+.PHONY : recv_special_sanitized
+
+# fast build rule for target.
+recv_special_sanitized/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_special_sanitized.dir/build.make tests/CMakeFiles/recv_special_sanitized.dir/build
+.PHONY : recv_special_sanitized/fast
+
+# Convenience name for target.
+tests/CMakeFiles/recv_special.dir/rule:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_special.dir/rule
+.PHONY : tests/CMakeFiles/recv_special.dir/rule
+
+# Convenience name for target.
+recv_special: tests/CMakeFiles/recv_special.dir/rule
+.PHONY : recv_special
+
+# fast build rule for target.
+recv_special/fast:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_special.dir/build.make tests/CMakeFiles/recv_special.dir/build
+.PHONY : recv_special/fast
+
+# Convenience name for target.
 tests/CMakeFiles/byte_stream_speed_test.dir/rule:
 	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/byte_stream_speed_test.dir/rule
 .PHONY : tests/CMakeFiles/byte_stream_speed_test.dir/rule
@@ -1000,6 +1336,330 @@ reassembler_win.cc.s:
 	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/reassembler_win.dir/build.make tests/CMakeFiles/reassembler_win.dir/reassembler_win.cc.s
 .PHONY : reassembler_win.cc.s
 
+recv_close.o: recv_close.cc.o
+.PHONY : recv_close.o
+
+# target to build an object file
+recv_close.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close_sanitized.dir/build.make tests/CMakeFiles/recv_close_sanitized.dir/recv_close.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close.dir/build.make tests/CMakeFiles/recv_close.dir/recv_close.cc.o
+.PHONY : recv_close.cc.o
+
+recv_close.i: recv_close.cc.i
+.PHONY : recv_close.i
+
+# target to preprocess a source file
+recv_close.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close_sanitized.dir/build.make tests/CMakeFiles/recv_close_sanitized.dir/recv_close.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close.dir/build.make tests/CMakeFiles/recv_close.dir/recv_close.cc.i
+.PHONY : recv_close.cc.i
+
+recv_close.s: recv_close.cc.s
+.PHONY : recv_close.s
+
+# target to generate assembly for a file
+recv_close.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close_sanitized.dir/build.make tests/CMakeFiles/recv_close_sanitized.dir/recv_close.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close.dir/build.make tests/CMakeFiles/recv_close.dir/recv_close.cc.s
+.PHONY : recv_close.cc.s
+
+recv_connect.o: recv_connect.cc.o
+.PHONY : recv_connect.o
+
+# target to build an object file
+recv_connect.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect_sanitized.dir/build.make tests/CMakeFiles/recv_connect_sanitized.dir/recv_connect.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect.dir/build.make tests/CMakeFiles/recv_connect.dir/recv_connect.cc.o
+.PHONY : recv_connect.cc.o
+
+recv_connect.i: recv_connect.cc.i
+.PHONY : recv_connect.i
+
+# target to preprocess a source file
+recv_connect.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect_sanitized.dir/build.make tests/CMakeFiles/recv_connect_sanitized.dir/recv_connect.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect.dir/build.make tests/CMakeFiles/recv_connect.dir/recv_connect.cc.i
+.PHONY : recv_connect.cc.i
+
+recv_connect.s: recv_connect.cc.s
+.PHONY : recv_connect.s
+
+# target to generate assembly for a file
+recv_connect.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect_sanitized.dir/build.make tests/CMakeFiles/recv_connect_sanitized.dir/recv_connect.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect.dir/build.make tests/CMakeFiles/recv_connect.dir/recv_connect.cc.s
+.PHONY : recv_connect.cc.s
+
+recv_reorder.o: recv_reorder.cc.o
+.PHONY : recv_reorder.o
+
+# target to build an object file
+recv_reorder.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_sanitized.dir/build.make tests/CMakeFiles/recv_reorder_sanitized.dir/recv_reorder.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder.dir/build.make tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.o
+.PHONY : recv_reorder.cc.o
+
+recv_reorder.i: recv_reorder.cc.i
+.PHONY : recv_reorder.i
+
+# target to preprocess a source file
+recv_reorder.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_sanitized.dir/build.make tests/CMakeFiles/recv_reorder_sanitized.dir/recv_reorder.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder.dir/build.make tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.i
+.PHONY : recv_reorder.cc.i
+
+recv_reorder.s: recv_reorder.cc.s
+.PHONY : recv_reorder.s
+
+# target to generate assembly for a file
+recv_reorder.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_sanitized.dir/build.make tests/CMakeFiles/recv_reorder_sanitized.dir/recv_reorder.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder.dir/build.make tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.s
+.PHONY : recv_reorder.cc.s
+
+recv_reorder_more.o: recv_reorder_more.cc.o
+.PHONY : recv_reorder_more.o
+
+# target to build an object file
+recv_reorder_more.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_more_sanitized.dir/build.make tests/CMakeFiles/recv_reorder_more_sanitized.dir/recv_reorder_more.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_more.dir/build.make tests/CMakeFiles/recv_reorder_more.dir/recv_reorder_more.cc.o
+.PHONY : recv_reorder_more.cc.o
+
+recv_reorder_more.i: recv_reorder_more.cc.i
+.PHONY : recv_reorder_more.i
+
+# target to preprocess a source file
+recv_reorder_more.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_more_sanitized.dir/build.make tests/CMakeFiles/recv_reorder_more_sanitized.dir/recv_reorder_more.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_more.dir/build.make tests/CMakeFiles/recv_reorder_more.dir/recv_reorder_more.cc.i
+.PHONY : recv_reorder_more.cc.i
+
+recv_reorder_more.s: recv_reorder_more.cc.s
+.PHONY : recv_reorder_more.s
+
+# target to generate assembly for a file
+recv_reorder_more.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_more_sanitized.dir/build.make tests/CMakeFiles/recv_reorder_more_sanitized.dir/recv_reorder_more.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder_more.dir/build.make tests/CMakeFiles/recv_reorder_more.dir/recv_reorder_more.cc.s
+.PHONY : recv_reorder_more.cc.s
+
+recv_special.o: recv_special.cc.o
+.PHONY : recv_special.o
+
+# target to build an object file
+recv_special.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_special_sanitized.dir/build.make tests/CMakeFiles/recv_special_sanitized.dir/recv_special.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_special.dir/build.make tests/CMakeFiles/recv_special.dir/recv_special.cc.o
+.PHONY : recv_special.cc.o
+
+recv_special.i: recv_special.cc.i
+.PHONY : recv_special.i
+
+# target to preprocess a source file
+recv_special.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_special_sanitized.dir/build.make tests/CMakeFiles/recv_special_sanitized.dir/recv_special.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_special.dir/build.make tests/CMakeFiles/recv_special.dir/recv_special.cc.i
+.PHONY : recv_special.cc.i
+
+recv_special.s: recv_special.cc.s
+.PHONY : recv_special.s
+
+# target to generate assembly for a file
+recv_special.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_special_sanitized.dir/build.make tests/CMakeFiles/recv_special_sanitized.dir/recv_special.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_special.dir/build.make tests/CMakeFiles/recv_special.dir/recv_special.cc.s
+.PHONY : recv_special.cc.s
+
+recv_transmit.o: recv_transmit.cc.o
+.PHONY : recv_transmit.o
+
+# target to build an object file
+recv_transmit.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit_sanitized.dir/build.make tests/CMakeFiles/recv_transmit_sanitized.dir/recv_transmit.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit.dir/build.make tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.o
+.PHONY : recv_transmit.cc.o
+
+recv_transmit.i: recv_transmit.cc.i
+.PHONY : recv_transmit.i
+
+# target to preprocess a source file
+recv_transmit.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit_sanitized.dir/build.make tests/CMakeFiles/recv_transmit_sanitized.dir/recv_transmit.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit.dir/build.make tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.i
+.PHONY : recv_transmit.cc.i
+
+recv_transmit.s: recv_transmit.cc.s
+.PHONY : recv_transmit.s
+
+# target to generate assembly for a file
+recv_transmit.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit_sanitized.dir/build.make tests/CMakeFiles/recv_transmit_sanitized.dir/recv_transmit.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit.dir/build.make tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.s
+.PHONY : recv_transmit.cc.s
+
+recv_window.o: recv_window.cc.o
+.PHONY : recv_window.o
+
+# target to build an object file
+recv_window.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window_sanitized.dir/build.make tests/CMakeFiles/recv_window_sanitized.dir/recv_window.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/recv_window.cc.o
+.PHONY : recv_window.cc.o
+
+recv_window.i: recv_window.cc.i
+.PHONY : recv_window.i
+
+# target to preprocess a source file
+recv_window.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window_sanitized.dir/build.make tests/CMakeFiles/recv_window_sanitized.dir/recv_window.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/recv_window.cc.i
+.PHONY : recv_window.cc.i
+
+recv_window.s: recv_window.cc.s
+.PHONY : recv_window.s
+
+# target to generate assembly for a file
+recv_window.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window_sanitized.dir/build.make tests/CMakeFiles/recv_window_sanitized.dir/recv_window.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/recv_window.cc.s
+.PHONY : recv_window.cc.s
+
+wrapping_integers_cmp.o: wrapping_integers_cmp.cc.o
+.PHONY : wrapping_integers_cmp.o
+
+# target to build an object file
+wrapping_integers_cmp.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/wrapping_integers_cmp.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.o
+.PHONY : wrapping_integers_cmp.cc.o
+
+wrapping_integers_cmp.i: wrapping_integers_cmp.cc.i
+.PHONY : wrapping_integers_cmp.i
+
+# target to preprocess a source file
+wrapping_integers_cmp.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/wrapping_integers_cmp.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.i
+.PHONY : wrapping_integers_cmp.cc.i
+
+wrapping_integers_cmp.s: wrapping_integers_cmp.cc.s
+.PHONY : wrapping_integers_cmp.s
+
+# target to generate assembly for a file
+wrapping_integers_cmp.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_cmp_sanitized.dir/wrapping_integers_cmp.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/wrapping_integers_cmp.cc.s
+.PHONY : wrapping_integers_cmp.cc.s
+
+wrapping_integers_extra.o: wrapping_integers_extra.cc.o
+.PHONY : wrapping_integers_extra.o
+
+# target to build an object file
+wrapping_integers_extra.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/wrapping_integers_extra.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_extra.dir/build.make tests/CMakeFiles/wrapping_integers_extra.dir/wrapping_integers_extra.cc.o
+.PHONY : wrapping_integers_extra.cc.o
+
+wrapping_integers_extra.i: wrapping_integers_extra.cc.i
+.PHONY : wrapping_integers_extra.i
+
+# target to preprocess a source file
+wrapping_integers_extra.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/wrapping_integers_extra.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_extra.dir/build.make tests/CMakeFiles/wrapping_integers_extra.dir/wrapping_integers_extra.cc.i
+.PHONY : wrapping_integers_extra.cc.i
+
+wrapping_integers_extra.s: wrapping_integers_extra.cc.s
+.PHONY : wrapping_integers_extra.s
+
+# target to generate assembly for a file
+wrapping_integers_extra.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_extra_sanitized.dir/wrapping_integers_extra.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_extra.dir/build.make tests/CMakeFiles/wrapping_integers_extra.dir/wrapping_integers_extra.cc.s
+.PHONY : wrapping_integers_extra.cc.s
+
+wrapping_integers_roundtrip.o: wrapping_integers_roundtrip.cc.o
+.PHONY : wrapping_integers_roundtrip.o
+
+# target to build an object file
+wrapping_integers_roundtrip.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/wrapping_integers_roundtrip.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_roundtrip.dir/build.make tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.o
+.PHONY : wrapping_integers_roundtrip.cc.o
+
+wrapping_integers_roundtrip.i: wrapping_integers_roundtrip.cc.i
+.PHONY : wrapping_integers_roundtrip.i
+
+# target to preprocess a source file
+wrapping_integers_roundtrip.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/wrapping_integers_roundtrip.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_roundtrip.dir/build.make tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.i
+.PHONY : wrapping_integers_roundtrip.cc.i
+
+wrapping_integers_roundtrip.s: wrapping_integers_roundtrip.cc.s
+.PHONY : wrapping_integers_roundtrip.s
+
+# target to generate assembly for a file
+wrapping_integers_roundtrip.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_roundtrip_sanitized.dir/wrapping_integers_roundtrip.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_roundtrip.dir/build.make tests/CMakeFiles/wrapping_integers_roundtrip.dir/wrapping_integers_roundtrip.cc.s
+.PHONY : wrapping_integers_roundtrip.cc.s
+
+wrapping_integers_unwrap.o: wrapping_integers_unwrap.cc.o
+.PHONY : wrapping_integers_unwrap.o
+
+# target to build an object file
+wrapping_integers_unwrap.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/wrapping_integers_unwrap.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.o
+.PHONY : wrapping_integers_unwrap.cc.o
+
+wrapping_integers_unwrap.i: wrapping_integers_unwrap.cc.i
+.PHONY : wrapping_integers_unwrap.i
+
+# target to preprocess a source file
+wrapping_integers_unwrap.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/wrapping_integers_unwrap.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.i
+.PHONY : wrapping_integers_unwrap.cc.i
+
+wrapping_integers_unwrap.s: wrapping_integers_unwrap.cc.s
+.PHONY : wrapping_integers_unwrap.s
+
+# target to generate assembly for a file
+wrapping_integers_unwrap.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap_sanitized.dir/wrapping_integers_unwrap.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/wrapping_integers_unwrap.cc.s
+.PHONY : wrapping_integers_unwrap.cc.s
+
+wrapping_integers_wrap.o: wrapping_integers_wrap.cc.o
+.PHONY : wrapping_integers_wrap.o
+
+# target to build an object file
+wrapping_integers_wrap.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/wrapping_integers_wrap.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap.dir/build.make tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.o
+.PHONY : wrapping_integers_wrap.cc.o
+
+wrapping_integers_wrap.i: wrapping_integers_wrap.cc.i
+.PHONY : wrapping_integers_wrap.i
+
+# target to preprocess a source file
+wrapping_integers_wrap.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/wrapping_integers_wrap.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap.dir/build.make tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.i
+.PHONY : wrapping_integers_wrap.cc.i
+
+wrapping_integers_wrap.s: wrapping_integers_wrap.cc.s
+.PHONY : wrapping_integers_wrap.s
+
+# target to generate assembly for a file
+wrapping_integers_wrap.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/build.make tests/CMakeFiles/wrapping_integers_wrap_sanitized.dir/wrapping_integers_wrap.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap.dir/build.make tests/CMakeFiles/wrapping_integers_wrap.dir/wrapping_integers_wrap.cc.s
+.PHONY : wrapping_integers_wrap.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1041,6 +1701,30 @@ help:
 	@echo "... reassembler_speed_test"
 	@echo "... reassembler_win"
 	@echo "... reassembler_win_sanitized"
+	@echo "... recv_close"
+	@echo "... recv_close_sanitized"
+	@echo "... recv_connect"
+	@echo "... recv_connect_sanitized"
+	@echo "... recv_reorder"
+	@echo "... recv_reorder_more"
+	@echo "... recv_reorder_more_sanitized"
+	@echo "... recv_reorder_sanitized"
+	@echo "... recv_special"
+	@echo "... recv_special_sanitized"
+	@echo "... recv_transmit"
+	@echo "... recv_transmit_sanitized"
+	@echo "... recv_window"
+	@echo "... recv_window_sanitized"
+	@echo "... wrapping_integers_cmp"
+	@echo "... wrapping_integers_cmp_sanitized"
+	@echo "... wrapping_integers_extra"
+	@echo "... wrapping_integers_extra_sanitized"
+	@echo "... wrapping_integers_roundtrip"
+	@echo "... wrapping_integers_roundtrip_sanitized"
+	@echo "... wrapping_integers_unwrap"
+	@echo "... wrapping_integers_unwrap_sanitized"
+	@echo "... wrapping_integers_wrap"
+	@echo "... wrapping_integers_wrap_sanitized"
 	@echo "... byte_stream_basics.o"
 	@echo "... byte_stream_basics.i"
 	@echo "... byte_stream_basics.s"
@@ -1089,6 +1773,42 @@ help:
 	@echo "... reassembler_win.o"
 	@echo "... reassembler_win.i"
 	@echo "... reassembler_win.s"
+	@echo "... recv_close.o"
+	@echo "... recv_close.i"
+	@echo "... recv_close.s"
+	@echo "... recv_connect.o"
+	@echo "... recv_connect.i"
+	@echo "... recv_connect.s"
+	@echo "... recv_reorder.o"
+	@echo "... recv_reorder.i"
+	@echo "... recv_reorder.s"
+	@echo "... recv_reorder_more.o"
+	@echo "... recv_reorder_more.i"
+	@echo "... recv_reorder_more.s"
+	@echo "... recv_special.o"
+	@echo "... recv_special.i"
+	@echo "... recv_special.s"
+	@echo "... recv_transmit.o"
+	@echo "... recv_transmit.i"
+	@echo "... recv_transmit.s"
+	@echo "... recv_window.o"
+	@echo "... recv_window.i"
+	@echo "... recv_window.s"
+	@echo "... wrapping_integers_cmp.o"
+	@echo "... wrapping_integers_cmp.i"
+	@echo "... wrapping_integers_cmp.s"
+	@echo "... wrapping_integers_extra.o"
+	@echo "... wrapping_integers_extra.i"
+	@echo "... wrapping_integers_extra.s"
+	@echo "... wrapping_integers_roundtrip.o"
+	@echo "... wrapping_integers_roundtrip.i"
+	@echo "... wrapping_integers_roundtrip.s"
+	@echo "... wrapping_integers_unwrap.o"
+	@echo "... wrapping_integers_unwrap.i"
+	@echo "... wrapping_integers_unwrap.s"
+	@echo "... wrapping_integers_wrap.o"
+	@echo "... wrapping_integers_wrap.i"
+	@echo "... wrapping_integers_wrap.s"
 .PHONY : help
 
 

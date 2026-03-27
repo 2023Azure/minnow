@@ -5,6 +5,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.o.d"
   "CMakeFiles/minnow_sanitized.dir/reassembler.cc.o"
   "CMakeFiles/minnow_sanitized.dir/reassembler.cc.o.d"
+  "CMakeFiles/minnow_sanitized.dir/tcp_receiver.cc.o"
+  "CMakeFiles/minnow_sanitized.dir/tcp_receiver.cc.o.d"
+  "CMakeFiles/minnow_sanitized.dir/wrapping_integers.cc.o"
+  "CMakeFiles/minnow_sanitized.dir/wrapping_integers.cc.o.d"
   "libminnow_sanitized.a"
   "libminnow_sanitized.pdb"
 )

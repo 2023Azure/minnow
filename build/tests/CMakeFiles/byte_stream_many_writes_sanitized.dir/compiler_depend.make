@@ -3,6 +3,7 @@
 
 tests/CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.cc.o: /home/azure/code/minnow/tests/byte_stream_many_writes.cc \
   /home/azure/code/minnow/src/byte_stream.hh \
+  /home/azure/code/minnow/src/wrapping_integers.hh \
   /home/azure/code/minnow/tests/byte_stream_test_harness.hh \
   /home/azure/code/minnow/tests/common.hh \
   /home/azure/code/minnow/tests/conversions.hh \
@@ -493,6 +494,8 @@ tests/CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.c
 
 /usr/include/c++/13/bits/stl_vector.h:
 
+/home/azure/code/minnow/src/wrapping_integers.hh:
+
 /usr/include/c++/13/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
@@ -500,6 +503,10 @@ tests/CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.c
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/c++/13/bits/random.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/c++/13/bits/ranges_uninitialized.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
@@ -614,10 +621,6 @@ tests/CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.c
 /usr/include/c++/13/bits/exception.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/13/bits/ranges_uninitialized.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
 
 /usr/include/alloca.h:
 
@@ -739,9 +742,9 @@ tests/CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.c
 
 /usr/include/c++/13/tr1/exp_integral.tcc:
 
-/usr/include/c++/13/initializer_list:
-
 /usr/include/c++/13/tr1/bessel_function.tcc:
+
+/usr/include/c++/13/initializer_list:
 
 /usr/include/limits.h:
 

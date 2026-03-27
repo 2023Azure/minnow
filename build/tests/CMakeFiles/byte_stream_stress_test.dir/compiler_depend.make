@@ -3,6 +3,7 @@
 
 tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o: /home/azure/code/minnow/tests/byte_stream_stress_test.cc \
   /home/azure/code/minnow/src/byte_stream.hh \
+  /home/azure/code/minnow/src/wrapping_integers.hh \
   /home/azure/code/minnow/tests/byte_stream_test_harness.hh \
   /home/azure/code/minnow/tests/common.hh \
   /home/azure/code/minnow/tests/conversions.hh \
@@ -340,6 +341,8 @@ tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o: /home
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
 /usr/include/c++/13/iostream:
 
 /usr/include/c++/13/ext/type_traits.h:
@@ -476,6 +479,14 @@ tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o: /home
 
 /usr/include/c++/13/bits/ranges_algobase.h:
 
+/usr/include/c++/13/compare:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/bits/string_view.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h:
@@ -489,10 +500,6 @@ tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o: /home
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/c++/13/bits/move.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
-
-/usr/include/c++/13/bits/ranges_uninitialized.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
@@ -521,14 +528,6 @@ tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o: /home
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/13/bits/exception_defines.h:
-
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/c++/13/bits/allocated_ptr.h:
-
-/usr/include/c++/13/bit:
-
-/usr/include/alloca.h:
 
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
@@ -564,6 +563,8 @@ tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o: /home
 
 /usr/include/c++/13/bits/stl_vector.h:
 
+/home/azure/code/minnow/src/wrapping_integers.hh:
+
 /usr/include/c++/13/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
@@ -578,6 +579,18 @@ tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o: /home
 
 /usr/include/c++/13/bits/locale_classes.tcc:
 
+/usr/include/c++/13/bits/ranges_uninitialized.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/alloca.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
+
+/usr/include/c++/13/bit:
+
 /usr/include/c++/13/bits/exception_ptr.h:
 
 /usr/include/c++/13/bits/istream.tcc:
@@ -589,12 +602,6 @@ tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o: /home
 /usr/include/c++/13/bits/basic_ios.tcc:
 
 /usr/include/c++/13/pstl/execution_defs.h:
-
-/usr/include/c++/13/bits/localefwd.h:
-
-/usr/include/c++/13/bits/streambuf_iterator.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
@@ -611,6 +618,12 @@ tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o: /home
 /usr/include/c++/13/bits/stringfwd.h:
 
 /usr/include/c++/13/bits/iterator_concepts.h:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/c++/13/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /home/azure/code/minnow/src/byte_stream.hh:
 
@@ -671,14 +684,6 @@ tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o: /home
 /usr/include/c++/13/pstl/glue_memory_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/13/compare:
-
-/usr/include/c++/13/system_error:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 
@@ -873,5 +878,3 @@ tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o: /home
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:

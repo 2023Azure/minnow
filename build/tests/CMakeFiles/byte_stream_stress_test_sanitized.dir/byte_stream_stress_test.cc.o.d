@@ -127,6 +127,7 @@ tests/CMakeFiles/byte_stream_stress_test_sanitized.dir/byte_stream_stress_test.c
  /usr/include/c++/13/bits/ranges_util.h \
  /home/azure/code/minnow/tests/common.hh \
  /home/azure/code/minnow/tests/conversions.hh \
+ /home/azure/code/minnow/src/wrapping_integers.hh \
  /usr/include/c++/13/optional /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \

@@ -1,115 +1,177 @@
-Start testing: Mar 25 17:11 CST
+Start testing: Mar 27 16:18 CST
 ----------------------------------------------------------
 1/39 Testing: compile with bug-checkers
 1/39 Test: compile with bug-checkers
 Command: "/usr/bin/cmake" "--build" "/home/azure/code/minnow/build" "-t" "functionality_testing" "webget"
 Directory: /home/azure/code/minnow/build
-"compile with bug-checkers" start time: Mar 25 17:11 CST
+"compile with bug-checkers" start time: Mar 27 16:18 CST
 Output:
 ----------------------------------------------------------
 make[4]: 警告: 子 make 中强制 -j12: 重置 jobserver 模式。
-[  1%] [32mBuilding CXX object src/CMakeFiles/minnow_sanitized.dir/reassembler.cc.o[0m
-[ 11%] Built target util_debug
-[ 13%] [32mBuilding CXX object src/CMakeFiles/minnow_debug.dir/reassembler.cc.o[0m
-[ 16%] Built target minnow_testing_debug
-[ 17%] Built target minnow_testing_sanitized
-[ 27%] Built target util_sanitized
-[ 29%] [32m[1mLinking CXX static library libminnow_debug.a[0m
-[ 31%] Built target minnow_debug
-[ 32%] [32mBuilding CXX object tests/CMakeFiles/reassembler_single.dir/reassembler_single.cc.o[0m
-[ 34%] [32m[1mLinking CXX executable byte_stream_capacity[0m
-[ 35%] [32m[1mLinking CXX executable byte_stream_one_write[0m
-[ 36%] [32m[1mLinking CXX executable byte_stream_two_writes[0m
-[ 37%] [32m[1mLinking CXX executable byte_stream_many_writes[0m
-[ 39%] [32m[1mLinking CXX executable byte_stream_basics[0m
-[ 40%] [32m[1mLinking CXX executable byte_stream_stress_test[0m
-[ 43%] [32mBuilding CXX object tests/CMakeFiles/reassembler_dup.dir/reassembler_dup.cc.o[0m
-[ 43%] [32mBuilding CXX object tests/CMakeFiles/reassembler_seq.dir/reassembler_seq.cc.o[0m
-[ 44%] [32mBuilding CXX object tests/CMakeFiles/reassembler_win.dir/reassembler_win.cc.o[0m
-[ 45%] [32mBuilding CXX object tests/CMakeFiles/reassembler_cap.dir/reassembler_cap.cc.o[0m
-[ 46%] Built target byte_stream_capacity
-[ 48%] Built target byte_stream_stress_test
-[ 49%] Built target byte_stream_many_writes
-[ 49%] Built target byte_stream_basics
-[ 50%] Built target byte_stream_one_write
-[ 51%] Built target byte_stream_two_writes
-[ 53%] [32m[1mLinking CXX static library libminnow_sanitized.a[0m
-[ 54%] [32mBuilding CXX object tests/CMakeFiles/reassembler_overlapping.dir/reassembler_overlapping.cc.o[0m
-[ 55%] [32mBuilding CXX object tests/CMakeFiles/reassembler_holes.dir/reassembler_holes.cc.o[0m
-[ 58%] Built target minnow_sanitized
-[ 60%] [32m[1mLinking CXX executable byte_stream_two_writes_sanitized[0m
-[ 60%] [32m[1mLinking CXX executable byte_stream_capacity_sanitized[0m
-[ 62%] [32m[1mLinking CXX executable byte_stream_one_write_sanitized[0m
-[ 63%] [32m[1mLinking CXX executable byte_stream_many_writes_sanitized[0m
-[ 64%] [32m[1mLinking CXX executable byte_stream_basics_sanitized[0m
-[ 65%] Built target byte_stream_two_writes_sanitized
-[ 67%] Built target byte_stream_capacity_sanitized
-[ 68%] Built target byte_stream_many_writes_sanitized
-[ 69%] [32m[1mLinking CXX executable byte_stream_stress_test_sanitized[0m
-[ 70%] Built target byte_stream_one_write_sanitized
-[ 74%] [32mBuilding CXX object tests/CMakeFiles/reassembler_single_sanitized.dir/reassembler_single.cc.o[0m
-[ 74%] [32mBuilding CXX object tests/CMakeFiles/reassembler_cap_sanitized.dir/reassembler_cap.cc.o[0m
-[ 74%] Built target byte_stream_basics_sanitized
-[ 75%] [32mBuilding CXX object tests/CMakeFiles/reassembler_seq_sanitized.dir/reassembler_seq.cc.o[0m
-[ 77%] [32mBuilding CXX object tests/CMakeFiles/reassembler_dup_sanitized.dir/reassembler_dup.cc.o[0m
-[ 78%] Built target byte_stream_stress_test_sanitized
-[ 79%] [32mBuilding CXX object tests/CMakeFiles/reassembler_holes_sanitized.dir/reassembler_holes.cc.o[0m
-[ 81%] [32m[1mLinking CXX executable reassembler_single[0m
-[ 81%] Built target reassembler_single
-[ 82%] [32m[1mLinking CXX executable reassembler_seq[0m
-[ 83%] [32mBuilding CXX object tests/CMakeFiles/reassembler_overlapping_sanitized.dir/reassembler_overlapping.cc.o[0m
-[ 84%] [32m[1mLinking CXX executable reassembler_cap[0m
-[ 86%] [32m[1mLinking CXX executable reassembler_holes[0m
-[ 86%] Built target reassembler_seq
-[ 87%] [32mBuilding CXX object tests/CMakeFiles/reassembler_win_sanitized.dir/reassembler_win.cc.o[0m
-[ 87%] Built target reassembler_cap
-[ 88%] [32m[1mLinking CXX executable reassembler_overlapping[0m
-[ 88%] Built target reassembler_holes
-[ 89%] [32m[1mLinking CXX executable reassembler_dup[0m
-[ 89%] Built target reassembler_overlapping
-[ 91%] [32m[1mLinking CXX executable reassembler_win[0m
-[ 91%] Built target reassembler_dup
-[ 91%] Built target reassembler_win
-[ 92%] [32m[1mLinking CXX executable reassembler_holes_sanitized[0m
-[ 92%] Built target reassembler_holes_sanitized
-[ 93%] [32m[1mLinking CXX executable reassembler_dup_sanitized[0m
-[ 93%] Built target reassembler_dup_sanitized
-[ 94%] [32m[1mLinking CXX executable reassembler_single_sanitized[0m
+[  1%] Built target minnow_testing_debug
+[  3%] Built target minnow_testing_sanitized
+[  4%] [32mBuilding CXX object src/CMakeFiles/minnow_sanitized.dir/tcp_receiver.cc.o[0m
+[  4%] [32mBuilding CXX object src/CMakeFiles/minnow_debug.dir/tcp_receiver.cc.o[0m
+[ 16%] Built target util_debug
+[ 16%] Built target util_sanitized
+[ 17%] [32m[1mLinking CXX static library libminnow_debug.a[0m
+[ 17%] [32m[1mLinking CXX static library libminnow_sanitized.a[0m
+[ 21%] Built target minnow_debug
+[ 21%] [32m[1mLinking CXX executable byte_stream_one_write[0m
+[ 21%] [32m[1mLinking CXX executable byte_stream_stress_test[0m
+[ 23%] [32m[1mLinking CXX executable byte_stream_basics[0m
+[ 23%] [32m[1mLinking CXX executable byte_stream_many_writes[0m
+[ 24%] [32m[1mLinking CXX executable byte_stream_two_writes[0m
+[ 27%] [32mBuilding CXX object tests/CMakeFiles/reassembler_single.dir/reassembler_single.cc.o[0m
+[ 27%] [32mBuilding CXX object tests/CMakeFiles/reassembler_dup.dir/reassembler_dup.cc.o[0m
+[ 27%] [32mBuilding CXX object tests/CMakeFiles/reassembler_cap.dir/reassembler_cap.cc.o[0m
+[ 27%] [32m[1mLinking CXX executable byte_stream_capacity[0m
+[ 28%] [32mBuilding CXX object tests/CMakeFiles/recv_special.dir/recv_special.cc.o[0m
+[ 29%] [32mBuilding CXX object tests/CMakeFiles/reassembler_seq.dir/reassembler_seq.cc.o[0m
+[ 32%] Built target minnow_sanitized
+[ 32%] [32mBuilding CXX object tests/CMakeFiles/reassembler_holes.dir/reassembler_holes.cc.o[0m
+[ 34%] Built target byte_stream_stress_test
+[ 35%] Built target byte_stream_capacity
+[ 35%] Built target byte_stream_many_writes
+[ 36%] Built target byte_stream_one_write
+[ 36%] [32mBuilding CXX object tests/CMakeFiles/reassembler_overlapping_sanitized.dir/reassembler_overlapping.cc.o[0m
+[ 36%] Built target byte_stream_basics
+[ 36%] Built target byte_stream_two_writes
+[ 36%] [32mBuilding CXX object tests/CMakeFiles/reassembler_win_sanitized.dir/reassembler_win.cc.o[0m
+[ 37%] [32mBuilding CXX object tests/CMakeFiles/reassembler_overlapping.dir/reassembler_overlapping.cc.o[0m
+[ 38%] [32mBuilding CXX object tests/CMakeFiles/reassembler_win.dir/reassembler_win.cc.o[0m
+[ 38%] [32m[1mLinking CXX executable wrapping_integers_cmp_sanitized[0m
+[ 40%] [32m[1mLinking CXX executable wrapping_integers_cmp[0m
+[ 41%] Built target wrapping_integers_cmp_sanitized
+[ 41%] Built target wrapping_integers_cmp
+[ 42%] [32m[1mLinking CXX executable wrapping_integers_wrap_sanitized[0m
+[ 42%] [32m[1mLinking CXX executable wrapping_integers_wrap[0m
+[ 43%] Built target wrapping_integers_wrap_sanitized
+[ 44%] [32m[1mLinking CXX executable wrapping_integers_unwrap_sanitized[0m
+[ 45%] Built target wrapping_integers_wrap
+[ 47%] [32m[1mLinking CXX executable wrapping_integers_unwrap[0m
+[ 47%] Built target wrapping_integers_unwrap_sanitized
+[ 47%] [32m[1mLinking CXX executable wrapping_integers_roundtrip_sanitized[0m
+[ 48%] Built target wrapping_integers_unwrap
+[ 49%] [32m[1mLinking CXX executable wrapping_integers_roundtrip[0m
+[ 50%] Built target wrapping_integers_roundtrip_sanitized
+[ 51%] [32m[1mLinking CXX executable wrapping_integers_extra_sanitized[0m
+[ 51%] Built target wrapping_integers_roundtrip
+[ 52%] [32m[1mLinking CXX executable wrapping_integers_extra[0m
+[ 52%] Built target wrapping_integers_extra_sanitized
+[ 52%] [32mBuilding CXX object tests/CMakeFiles/recv_connect_sanitized.dir/recv_connect.cc.o[0m
+[ 54%] Built target wrapping_integers_extra
+[ 55%] [32mBuilding CXX object tests/CMakeFiles/recv_connect.dir/recv_connect.cc.o[0m
+[ 55%] [32m[1mLinking CXX executable reassembler_seq[0m
+[ 55%] Built target reassembler_seq
+[ 55%] [32mBuilding CXX object tests/CMakeFiles/recv_transmit_sanitized.dir/recv_transmit.cc.o[0m
+[ 56%] [32m[1mLinking CXX executable reassembler_single[0m
+[ 57%] [32m[1mLinking CXX executable reassembler_holes[0m
+[ 57%] Built target reassembler_single
+[ 58%] [32m[1mLinking CXX executable reassembler_cap[0m
+[ 58%] [32mBuilding CXX object tests/CMakeFiles/recv_transmit.dir/recv_transmit.cc.o[0m
+[ 58%] Built target reassembler_holes
+[ 58%] Built target reassembler_cap
+[ 60%] [32mBuilding CXX object tests/CMakeFiles/recv_window_sanitized.dir/recv_window.cc.o[0m
+[ 61%] [32mBuilding CXX object tests/CMakeFiles/recv_window.dir/recv_window.cc.o[0m
+[ 62%] [32m[1mLinking CXX executable reassembler_dup[0m
+[ 63%] [32m[1mLinking CXX executable reassembler_overlapping[0m
+[ 63%] Built target reassembler_overlapping
+[ 63%] Built target reassembler_dup
+[ 63%] [32mBuilding CXX object tests/CMakeFiles/recv_reorder_sanitized.dir/recv_reorder.cc.o[0m
+[ 64%] [32mBuilding CXX object tests/CMakeFiles/recv_reorder.dir/recv_reorder.cc.o[0m
+[ 65%] [32m[1mLinking CXX executable reassembler_win[0m
+[ 65%] Built target reassembler_win
+[ 67%] [32mBuilding CXX object tests/CMakeFiles/recv_reorder_more_sanitized.dir/recv_reorder_more.cc.o[0m
+[ 67%] [32m[1mLinking CXX executable recv_special[0m
+[ 67%] Built target recv_special
+[ 68%] [32mBuilding CXX object tests/CMakeFiles/recv_reorder_more.dir/recv_reorder_more.cc.o[0m
+[ 69%] [32m[1mLinking CXX executable recv_connect[0m
+[ 70%] [32m[1mLinking CXX executable reassembler_overlapping_sanitized[0m
+[ 70%] Built target recv_connect
+[ 71%] [32mBuilding CXX object tests/CMakeFiles/recv_close_sanitized.dir/recv_close.cc.o[0m
+[ 71%] Built target reassembler_overlapping_sanitized
+[ 71%] [32mBuilding CXX object tests/CMakeFiles/recv_close.dir/recv_close.cc.o[0m
+[ 72%] [32m[1mLinking CXX executable reassembler_win_sanitized[0m
+[ 72%] Built target reassembler_win_sanitized
+[ 74%] [32mBuilding CXX object tests/CMakeFiles/recv_special_sanitized.dir/recv_special.cc.o[0m
+[ 74%] [32m[1mLinking CXX executable recv_window[0m
+[ 75%] [32m[1mLinking CXX executable recv_transmit[0m
+[ 75%] Built target recv_window
+[ 76%] [32m[1mLinking CXX executable byte_stream_basics_sanitized[0m
+[ 76%] Built target recv_transmit
+[ 77%] [32m[1mLinking CXX executable byte_stream_capacity_sanitized[0m
+[ 77%] Built target byte_stream_basics_sanitized
+[ 78%] [32m[1mLinking CXX executable byte_stream_one_write_sanitized[0m
+[ 80%] [32m[1mLinking CXX executable recv_connect_sanitized[0m
+[ 81%] Built target byte_stream_capacity_sanitized
+[ 82%] [32m[1mLinking CXX executable byte_stream_two_writes_sanitized[0m
+[ 83%] Built target byte_stream_one_write_sanitized
+[ 83%] [32m[1mLinking CXX executable byte_stream_many_writes_sanitized[0m
+[ 83%] Built target recv_connect_sanitized
+[ 83%] Built target byte_stream_two_writes_sanitized
+[ 84%] [32m[1mLinking CXX executable byte_stream_stress_test_sanitized[0m
+[ 84%] [32mBuilding CXX object tests/CMakeFiles/reassembler_single_sanitized.dir/reassembler_single.cc.o[0m
+[ 84%] [32m[1mLinking CXX executable recv_reorder[0m
+[ 85%] Built target byte_stream_many_writes_sanitized
+[ 87%] [32mBuilding CXX object tests/CMakeFiles/reassembler_cap_sanitized.dir/reassembler_cap.cc.o[0m
+[ 88%] [32m[1mLinking CXX executable recv_transmit_sanitized[0m
+[ 89%] Built target byte_stream_stress_test_sanitized
+[ 90%] [32mBuilding CXX object tests/CMakeFiles/reassembler_seq_sanitized.dir/reassembler_seq.cc.o[0m
+[ 90%] Built target recv_reorder
+[ 90%] [32mBuilding CXX object tests/CMakeFiles/reassembler_dup_sanitized.dir/reassembler_dup.cc.o[0m
+[ 90%] Built target recv_transmit_sanitized
+[ 91%] [32mBuilding CXX object tests/CMakeFiles/reassembler_holes_sanitized.dir/reassembler_holes.cc.o[0m
+[ 92%] [32m[1mLinking CXX executable recv_close[0m
+[ 92%] [32m[1mLinking CXX executable recv_reorder_more[0m
+[ 92%] Built target recv_close
+[ 92%] Built target recv_reorder_more
+[ 94%] [32m[1mLinking CXX executable recv_window_sanitized[0m
+[ 94%] Built target recv_window_sanitized
+[ 95%] [32m[1mLinking CXX executable recv_reorder_more_sanitized[0m
+[ 95%] Built target recv_reorder_more_sanitized
+[ 96%] [32m[1mLinking CXX executable recv_reorder_sanitized[0m
 [ 96%] [32m[1mLinking CXX executable reassembler_seq_sanitized[0m
+[ 96%] Built target recv_reorder_sanitized
 [ 96%] Built target reassembler_seq_sanitized
-[ 96%] Built target reassembler_single_sanitized
+[ 96%] [32m[1mLinking CXX executable reassembler_holes_sanitized[0m
+[ 97%] [32m[1mLinking CXX executable reassembler_single_sanitized[0m
+[ 97%] [32m[1mLinking CXX executable recv_close_sanitized[0m
+[ 97%] Built target reassembler_holes_sanitized
+[ 97%] Built target reassembler_single_sanitized
+[ 97%] Built target recv_close_sanitized
 [ 97%] [32m[1mLinking CXX executable reassembler_cap_sanitized[0m
 [ 97%] Built target reassembler_cap_sanitized
-[ 98%] [32m[1mLinking CXX executable reassembler_win_sanitized[0m
-[ 98%] Built target reassembler_win_sanitized
-[100%] [32m[1mLinking CXX executable reassembler_overlapping_sanitized[0m
-[100%] Built target reassembler_overlapping_sanitized
+[ 98%] [32m[1mLinking CXX executable reassembler_dup_sanitized[0m
+[ 98%] Built target reassembler_dup_sanitized
+[100%] [32m[1mLinking CXX executable recv_special_sanitized[0m
+[100%] Built target recv_special_sanitized
 [100%] Built target functionality_testing
-[ 25%] Built target minnow_debug
-[ 37%] Built target stream_copy
-[ 87%] Built target util_debug
-[ 93%] [32m[1mLinking CXX executable webget[0m
+[  8%] Built target stream_copy
+[ 50%] Built target util_debug
+[ 83%] Built target minnow_debug
+[ 91%] [32m[1mLinking CXX executable webget[0m
 [100%] Built target webget
 <end of output>
-Test time =   6.41 sec
+Test time =   7.57 sec
 ----------------------------------------------------------
 Test Passed.
-"compile with bug-checkers" end time: Mar 25 17:11 CST
-"compile with bug-checkers" time elapsed: 00:00:06
+"compile with bug-checkers" end time: Mar 27 16:19 CST
+"compile with bug-checkers" time elapsed: 00:00:07
 ----------------------------------------------------------
 
 3/39 Testing: byte_stream_basics
 3/39 Test: byte_stream_basics
 Command: "/home/azure/code/minnow/build/tests/byte_stream_basics_sanitized"
 Directory: /home/azure/code/minnow/build
-"byte_stream_basics" start time: Mar 25 17:11 CST
+"byte_stream_basics" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"byte_stream_basics" end time: Mar 25 17:11 CST
+"byte_stream_basics" end time: Mar 27 16:19 CST
 "byte_stream_basics" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -117,14 +179,14 @@ Test Passed.
 4/39 Test: byte_stream_capacity
 Command: "/home/azure/code/minnow/build/tests/byte_stream_capacity_sanitized"
 Directory: /home/azure/code/minnow/build
-"byte_stream_capacity" start time: Mar 25 17:11 CST
+"byte_stream_capacity" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"byte_stream_capacity" end time: Mar 25 17:11 CST
+"byte_stream_capacity" end time: Mar 27 16:19 CST
 "byte_stream_capacity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -132,14 +194,14 @@ Test Passed.
 5/39 Test: byte_stream_one_write
 Command: "/home/azure/code/minnow/build/tests/byte_stream_one_write_sanitized"
 Directory: /home/azure/code/minnow/build
-"byte_stream_one_write" start time: Mar 25 17:11 CST
+"byte_stream_one_write" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"byte_stream_one_write" end time: Mar 25 17:11 CST
+"byte_stream_one_write" end time: Mar 27 16:19 CST
 "byte_stream_one_write" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -147,14 +209,14 @@ Test Passed.
 6/39 Test: byte_stream_two_writes
 Command: "/home/azure/code/minnow/build/tests/byte_stream_two_writes_sanitized"
 Directory: /home/azure/code/minnow/build
-"byte_stream_two_writes" start time: Mar 25 17:11 CST
+"byte_stream_two_writes" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"byte_stream_two_writes" end time: Mar 25 17:11 CST
+"byte_stream_two_writes" end time: Mar 27 16:19 CST
 "byte_stream_two_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -162,14 +224,14 @@ Test Passed.
 7/39 Test: byte_stream_many_writes
 Command: "/home/azure/code/minnow/build/tests/byte_stream_many_writes_sanitized"
 Directory: /home/azure/code/minnow/build
-"byte_stream_many_writes" start time: Mar 25 17:11 CST
+"byte_stream_many_writes" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.09 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"byte_stream_many_writes" end time: Mar 25 17:11 CST
+"byte_stream_many_writes" end time: Mar 27 16:19 CST
 "byte_stream_many_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -177,14 +239,14 @@ Test Passed.
 8/39 Test: byte_stream_stress_test
 Command: "/home/azure/code/minnow/build/tests/byte_stream_stress_test_sanitized"
 Directory: /home/azure/code/minnow/build
-"byte_stream_stress_test" start time: Mar 25 17:11 CST
+"byte_stream_stress_test" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"byte_stream_stress_test" end time: Mar 25 17:11 CST
+"byte_stream_stress_test" end time: Mar 27 16:19 CST
 "byte_stream_stress_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -192,14 +254,14 @@ Test Passed.
 9/39 Test: reassembler_single
 Command: "/home/azure/code/minnow/build/tests/reassembler_single_sanitized"
 Directory: /home/azure/code/minnow/build
-"reassembler_single" start time: Mar 25 17:11 CST
+"reassembler_single" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"reassembler_single" end time: Mar 25 17:11 CST
+"reassembler_single" end time: Mar 27 16:19 CST
 "reassembler_single" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -207,14 +269,14 @@ Test Passed.
 10/39 Test: reassembler_cap
 Command: "/home/azure/code/minnow/build/tests/reassembler_cap_sanitized"
 Directory: /home/azure/code/minnow/build
-"reassembler_cap" start time: Mar 25 17:11 CST
+"reassembler_cap" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"reassembler_cap" end time: Mar 25 17:11 CST
+"reassembler_cap" end time: Mar 27 16:19 CST
 "reassembler_cap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -222,14 +284,14 @@ Test Passed.
 11/39 Test: reassembler_seq
 Command: "/home/azure/code/minnow/build/tests/reassembler_seq_sanitized"
 Directory: /home/azure/code/minnow/build
-"reassembler_seq" start time: Mar 25 17:11 CST
+"reassembler_seq" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"reassembler_seq" end time: Mar 25 17:11 CST
+"reassembler_seq" end time: Mar 27 16:19 CST
 "reassembler_seq" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -237,14 +299,14 @@ Test Passed.
 12/39 Test: reassembler_dup
 Command: "/home/azure/code/minnow/build/tests/reassembler_dup_sanitized"
 Directory: /home/azure/code/minnow/build
-"reassembler_dup" start time: Mar 25 17:11 CST
+"reassembler_dup" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.08 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"reassembler_dup" end time: Mar 25 17:11 CST
+"reassembler_dup" end time: Mar 27 16:19 CST
 "reassembler_dup" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -252,14 +314,14 @@ Test Passed.
 13/39 Test: reassembler_holes
 Command: "/home/azure/code/minnow/build/tests/reassembler_holes_sanitized"
 Directory: /home/azure/code/minnow/build
-"reassembler_holes" start time: Mar 25 17:11 CST
+"reassembler_holes" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"reassembler_holes" end time: Mar 25 17:11 CST
+"reassembler_holes" end time: Mar 27 16:19 CST
 "reassembler_holes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -267,14 +329,14 @@ Test Passed.
 14/39 Test: reassembler_overlapping
 Command: "/home/azure/code/minnow/build/tests/reassembler_overlapping_sanitized"
 Directory: /home/azure/code/minnow/build
-"reassembler_overlapping" start time: Mar 25 17:11 CST
+"reassembler_overlapping" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"reassembler_overlapping" end time: Mar 25 17:11 CST
+"reassembler_overlapping" end time: Mar 27 16:19 CST
 "reassembler_overlapping" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -282,63 +344,249 @@ Test Passed.
 15/39 Test: reassembler_win
 Command: "/home/azure/code/minnow/build/tests/reassembler_win_sanitized"
 Directory: /home/azure/code/minnow/build
-"reassembler_win" start time: Mar 25 17:11 CST
+"reassembler_win" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   8.28 sec
+Test time =   4.65 sec
 ----------------------------------------------------------
 Test Passed.
-"reassembler_win" end time: Mar 25 17:12 CST
-"reassembler_win" time elapsed: 00:00:08
+"reassembler_win" end time: Mar 27 16:19 CST
+"reassembler_win" time elapsed: 00:00:04
+----------------------------------------------------------
+
+16/39 Testing: wrapping_integers_cmp
+16/39 Test: wrapping_integers_cmp
+Command: "/home/azure/code/minnow/build/tests/wrapping_integers_cmp_sanitized"
+Directory: /home/azure/code/minnow/build
+"wrapping_integers_cmp" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"wrapping_integers_cmp" end time: Mar 27 16:19 CST
+"wrapping_integers_cmp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/39 Testing: wrapping_integers_wrap
+17/39 Test: wrapping_integers_wrap
+Command: "/home/azure/code/minnow/build/tests/wrapping_integers_wrap_sanitized"
+Directory: /home/azure/code/minnow/build
+"wrapping_integers_wrap" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"wrapping_integers_wrap" end time: Mar 27 16:19 CST
+"wrapping_integers_wrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/39 Testing: wrapping_integers_unwrap
+18/39 Test: wrapping_integers_unwrap
+Command: "/home/azure/code/minnow/build/tests/wrapping_integers_unwrap_sanitized"
+Directory: /home/azure/code/minnow/build
+"wrapping_integers_unwrap" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"wrapping_integers_unwrap" end time: Mar 27 16:19 CST
+"wrapping_integers_unwrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/39 Testing: wrapping_integers_roundtrip
+19/39 Test: wrapping_integers_roundtrip
+Command: "/home/azure/code/minnow/build/tests/wrapping_integers_roundtrip_sanitized"
+Directory: /home/azure/code/minnow/build
+"wrapping_integers_roundtrip" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.74 sec
+----------------------------------------------------------
+Test Passed.
+"wrapping_integers_roundtrip" end time: Mar 27 16:19 CST
+"wrapping_integers_roundtrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/39 Testing: wrapping_integers_extra
+20/39 Test: wrapping_integers_extra
+Command: "/home/azure/code/minnow/build/tests/wrapping_integers_extra_sanitized"
+Directory: /home/azure/code/minnow/build
+"wrapping_integers_extra" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"wrapping_integers_extra" end time: Mar 27 16:19 CST
+"wrapping_integers_extra" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/39 Testing: recv_connect
+21/39 Test: recv_connect
+Command: "/home/azure/code/minnow/build/tests/recv_connect_sanitized"
+Directory: /home/azure/code/minnow/build
+"recv_connect" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"recv_connect" end time: Mar 27 16:19 CST
+"recv_connect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/39 Testing: recv_transmit
+22/39 Test: recv_transmit
+Command: "/home/azure/code/minnow/build/tests/recv_transmit_sanitized"
+Directory: /home/azure/code/minnow/build
+"recv_transmit" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"recv_transmit" end time: Mar 27 16:19 CST
+"recv_transmit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/39 Testing: recv_window
+23/39 Test: recv_window
+Command: "/home/azure/code/minnow/build/tests/recv_window_sanitized"
+Directory: /home/azure/code/minnow/build
+"recv_window" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"recv_window" end time: Mar 27 16:19 CST
+"recv_window" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/39 Testing: recv_reorder
+24/39 Test: recv_reorder
+Command: "/home/azure/code/minnow/build/tests/recv_reorder_sanitized"
+Directory: /home/azure/code/minnow/build
+"recv_reorder" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"recv_reorder" end time: Mar 27 16:19 CST
+"recv_reorder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/39 Testing: recv_reorder_more
+25/39 Test: recv_reorder_more
+Command: "/home/azure/code/minnow/build/tests/recv_reorder_more_sanitized"
+Directory: /home/azure/code/minnow/build
+"recv_reorder_more" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   8.54 sec
+----------------------------------------------------------
+Test Passed.
+"recv_reorder_more" end time: Mar 27 16:19 CST
+"recv_reorder_more" time elapsed: 00:00:08
+----------------------------------------------------------
+
+26/39 Testing: recv_close
+26/39 Test: recv_close
+Command: "/home/azure/code/minnow/build/tests/recv_close_sanitized"
+Directory: /home/azure/code/minnow/build
+"recv_close" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"recv_close" end time: Mar 27 16:19 CST
+"recv_close" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/39 Testing: recv_special
+27/39 Test: recv_special
+Command: "/home/azure/code/minnow/build/tests/recv_special_sanitized"
+Directory: /home/azure/code/minnow/build
+"recv_special" start time: Mar 27 16:19 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"recv_special" end time: Mar 27 16:19 CST
+"recv_special" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 37/39 Testing: compile with optimization
 37/39 Test: compile with optimization
 Command: "/usr/bin/cmake" "--build" "/home/azure/code/minnow/build" "-t" "speed_testing"
 Directory: /home/azure/code/minnow/build
-"compile with optimization" start time: Mar 25 17:12 CST
+"compile with optimization" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
 make[4]: 警告: 子 make 中强制 -j12: 重置 jobserver 模式。
-[ 21%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.o[0m
-[ 21%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/reassembler.cc.o[0m
-[ 21%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/byte_stream.cc.o[0m
-[ 28%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/eventloop.cc.o[0m
-[ 35%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/address.cc.o[0m
-[ 42%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/socket.cc.o[0m
-[ 42%] [32m[1mLinking CXX static library libminnow_optimized.a[0m
-[ 42%] Built target minnow_optimized
-[ 50%] [32m[1mLinking CXX static library libutil_optimized.a[0m
-[ 78%] Built target util_optimized
-[ 85%] [32mBuilding CXX object tests/CMakeFiles/reassembler_speed_test.dir/reassembler_speed_test.cc.o[0m
-[ 92%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_speed_test.dir/byte_stream_speed_test.cc.o[0m
+[  0%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/reassembler.cc.o[0m
+[ 20%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.o[0m
+[ 20%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/wrapping_integers.cc.o[0m
+[ 30%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/tcp_receiver.cc.o[0m
+[ 30%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/byte_stream.cc.o[0m
+[ 40%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/ipv4_header.cc.o[0m
+[ 40%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/file_descriptor.cc.o[0m
+[ 60%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/tun.cc.o[0m
+[ 60%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/socket.cc.o[0m
+[ 70%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/address.cc.o[0m
+[ 80%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/eventloop.cc.o[0m
+[ 80%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/random.cc.o[0m
+[ 80%] [32m[1mLinking CXX static library libminnow_optimized.a[0m
+[ 80%] Built target minnow_optimized
+[ 80%] [32m[1mLinking CXX static library libutil_optimized.a[0m
+[ 80%] Built target util_optimized
+[ 90%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_speed_test.dir/byte_stream_speed_test.cc.o[0m
+[ 90%] [32mBuilding CXX object tests/CMakeFiles/reassembler_speed_test.dir/reassembler_speed_test.cc.o[0m
 [100%] [32m[1mLinking CXX executable byte_stream_speed_test[0m
 [100%] Built target byte_stream_speed_test
 [100%] [32m[1mLinking CXX executable reassembler_speed_test[0m
 [100%] Built target reassembler_speed_test
 [100%] Built target speed_testing
 <end of output>
-Test time =   4.57 sec
+Test time =   3.03 sec
 ----------------------------------------------------------
 Test Passed.
-"compile with optimization" end time: Mar 25 17:12 CST
-"compile with optimization" time elapsed: 00:00:04
+"compile with optimization" end time: Mar 27 16:19 CST
+"compile with optimization" time elapsed: 00:00:03
 ----------------------------------------------------------
 
 38/39 Testing: byte_stream_speed_test
 38/39 Test: byte_stream_speed_test
 Command: "/home/azure/code/minnow/build/tests/byte_stream_speed_test"
 Directory: /home/azure/code/minnow/build
-"byte_stream_speed_test" start time: Mar 25 17:12 CST
+"byte_stream_speed_test" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
-ByteStream with capacity=32768, write_size=1500, read_size=128 reached 2.87 Gbit/s.
+ByteStream with capacity=32768, write_size=1500, read_size=128 reached 5.59 Gbit/s.
 <end of output>
-Test time =   0.16 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"byte_stream_speed_test" end time: Mar 25 17:12 CST
+"byte_stream_speed_test" end time: Mar 27 16:19 CST
 "byte_stream_speed_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -346,16 +594,16 @@ Test Passed.
 39/39 Test: reassembler_speed_test
 Command: "/home/azure/code/minnow/build/tests/reassembler_speed_test"
 Directory: /home/azure/code/minnow/build
-"reassembler_speed_test" start time: Mar 25 17:12 CST
+"reassembler_speed_test" start time: Mar 27 16:19 CST
 Output:
 ----------------------------------------------------------
-Reassembler to ByteStream with capacity=1500 reached 0.27 Gbit/s.
+Reassembler to ByteStream with capacity=1500 reached 0.50 Gbit/s.
 <end of output>
-Test time =   0.67 sec
+Test time =   0.35 sec
 ----------------------------------------------------------
 Test Passed.
-"reassembler_speed_test" end time: Mar 25 17:12 CST
+"reassembler_speed_test" end time: Mar 27 16:19 CST
 "reassembler_speed_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 25 17:12 CST
+End testing: Mar 27 16:19 CST

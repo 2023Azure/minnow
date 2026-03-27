@@ -41,6 +41,10 @@ public:
   // Access output stream writer, but const-only (can't write from outside)
   const Writer& writer() const { return output_.writer(); }
 
+  //Access first unassembled bytes
+  uint64_t get_first_unassembled_() const { return first_unassembled_; }
+  
+
 private:
   ByteStream output_; // the Reassembler writes to this ByteStream
   uint64_t first_unassembled_ {};

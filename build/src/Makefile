@@ -258,6 +258,66 @@ reassembler.cc.s:
 	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_optimized.dir/build.make src/CMakeFiles/minnow_optimized.dir/reassembler.cc.s
 .PHONY : reassembler.cc.s
 
+tcp_receiver.o: tcp_receiver.cc.o
+.PHONY : tcp_receiver.o
+
+# target to build an object file
+tcp_receiver.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_debug.dir/build.make src/CMakeFiles/minnow_debug.dir/tcp_receiver.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_sanitized.dir/build.make src/CMakeFiles/minnow_sanitized.dir/tcp_receiver.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_optimized.dir/build.make src/CMakeFiles/minnow_optimized.dir/tcp_receiver.cc.o
+.PHONY : tcp_receiver.cc.o
+
+tcp_receiver.i: tcp_receiver.cc.i
+.PHONY : tcp_receiver.i
+
+# target to preprocess a source file
+tcp_receiver.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_debug.dir/build.make src/CMakeFiles/minnow_debug.dir/tcp_receiver.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_sanitized.dir/build.make src/CMakeFiles/minnow_sanitized.dir/tcp_receiver.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_optimized.dir/build.make src/CMakeFiles/minnow_optimized.dir/tcp_receiver.cc.i
+.PHONY : tcp_receiver.cc.i
+
+tcp_receiver.s: tcp_receiver.cc.s
+.PHONY : tcp_receiver.s
+
+# target to generate assembly for a file
+tcp_receiver.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_debug.dir/build.make src/CMakeFiles/minnow_debug.dir/tcp_receiver.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_sanitized.dir/build.make src/CMakeFiles/minnow_sanitized.dir/tcp_receiver.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_optimized.dir/build.make src/CMakeFiles/minnow_optimized.dir/tcp_receiver.cc.s
+.PHONY : tcp_receiver.cc.s
+
+wrapping_integers.o: wrapping_integers.cc.o
+.PHONY : wrapping_integers.o
+
+# target to build an object file
+wrapping_integers.cc.o:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_debug.dir/build.make src/CMakeFiles/minnow_debug.dir/wrapping_integers.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_sanitized.dir/build.make src/CMakeFiles/minnow_sanitized.dir/wrapping_integers.cc.o
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_optimized.dir/build.make src/CMakeFiles/minnow_optimized.dir/wrapping_integers.cc.o
+.PHONY : wrapping_integers.cc.o
+
+wrapping_integers.i: wrapping_integers.cc.i
+.PHONY : wrapping_integers.i
+
+# target to preprocess a source file
+wrapping_integers.cc.i:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_debug.dir/build.make src/CMakeFiles/minnow_debug.dir/wrapping_integers.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_sanitized.dir/build.make src/CMakeFiles/minnow_sanitized.dir/wrapping_integers.cc.i
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_optimized.dir/build.make src/CMakeFiles/minnow_optimized.dir/wrapping_integers.cc.i
+.PHONY : wrapping_integers.cc.i
+
+wrapping_integers.s: wrapping_integers.cc.s
+.PHONY : wrapping_integers.s
+
+# target to generate assembly for a file
+wrapping_integers.cc.s:
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_debug.dir/build.make src/CMakeFiles/minnow_debug.dir/wrapping_integers.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_sanitized.dir/build.make src/CMakeFiles/minnow_sanitized.dir/wrapping_integers.cc.s
+	cd /home/azure/code/minnow/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/minnow_optimized.dir/build.make src/CMakeFiles/minnow_optimized.dir/wrapping_integers.cc.s
+.PHONY : wrapping_integers.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -279,6 +339,12 @@ help:
 	@echo "... reassembler.o"
 	@echo "... reassembler.i"
 	@echo "... reassembler.s"
+	@echo "... tcp_receiver.o"
+	@echo "... tcp_receiver.i"
+	@echo "... tcp_receiver.s"
+	@echo "... wrapping_integers.o"
+	@echo "... wrapping_integers.i"
+	@echo "... wrapping_integers.s"
 .PHONY : help
 
 

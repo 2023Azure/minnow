@@ -3,6 +3,7 @@
 
 tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/azure/code/minnow/tests/byte_stream_two_writes.cc \
   /home/azure/code/minnow/src/byte_stream.hh \
+  /home/azure/code/minnow/src/wrapping_integers.hh \
   /home/azure/code/minnow/tests/byte_stream_test_harness.hh \
   /home/azure/code/minnow/tests/common.hh \
   /home/azure/code/minnow/tests/conversions.hh \
@@ -261,7 +262,7 @@ tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/a
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 
-/usr/include/c++/13/pstl/pstl_config.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
 /usr/include/c++/13/pstl/execution_defs.h:
 
@@ -347,6 +348,8 @@ tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/a
 
 /usr/include/c++/13/bits/stl_vector.h:
 
+/home/azure/code/minnow/src/wrapping_integers.hh:
+
 /usr/include/c++/13/bits/stl_tempbuf.h:
 
 /usr/include/c++/13/bits/stl_relops.h:
@@ -409,6 +412,14 @@ tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/a
 
 /usr/include/c++/13/bits/predefined_ops.h:
 
+/usr/include/c++/13/exception:
+
+/usr/include/c++/13/pstl/glue_memory_defs.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/c++/13/istream:
+
 /usr/include/c++/13/cxxabi.h:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
@@ -417,25 +428,9 @@ tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/a
 
 /usr/include/c++/13/bits/move.h:
 
-/usr/include/c++/13/bits/ptr_traits.h:
-
-/usr/include/c++/13/bits/ranges_uninitialized.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
 /usr/include/c++/13/bits/basic_string.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/13/exception:
-
-/usr/include/c++/13/pstl/glue_memory_defs.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/13/istream:
 
 /usr/include/c++/13/ext/aligned_buffer.h:
 
@@ -452,14 +447,6 @@ tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/a
 /usr/include/c++/13/optional:
 
 /usr/include/c++/13/bits/vector.tcc:
-
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/c++/13/bits/allocated_ptr.h:
-
-/usr/include/c++/13/bit:
-
-/usr/include/alloca.h:
 
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
@@ -499,7 +486,21 @@ tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/a
 
 /usr/include/c++/13/bits/locale_classes.tcc:
 
-/usr/include/c++/13/bits/localefwd.h:
+/usr/include/c++/13/bits/ranges_uninitialized.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/usr/include/alloca.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
+
+/usr/include/c++/13/bit:
 
 /usr/include/c++/13/cwctype:
 
@@ -516,6 +517,8 @@ tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/a
 /usr/include/c++/13/bits/stringfwd.h:
 
 /usr/include/c++/13/bits/iterator_concepts.h:
+
+/usr/include/c++/13/bits/localefwd.h:
 
 /home/azure/code/minnow/src/byte_stream.hh:
 
@@ -566,6 +569,8 @@ tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/a
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/c++/13/bits/ranges_algobase.h:
+
+/usr/include/c++/13/pstl/pstl_config.h:
 
 /usr/include/c++/13/stdexcept:
 
@@ -774,5 +779,3 @@ tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o: /home/a
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
